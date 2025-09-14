@@ -1,0 +1,1490 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 09:52:55 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64028@DESKTOP-RUEBSAP
+
+[2024-02-25 09:52:55 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 09:52:55 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 09:52:55 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 09:52:55 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 09:52:55 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 09:52:55 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:12:05 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 59352@DESKTOP-RUEBSAP
+
+[2024-02-25 10:12:06 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:12:06 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:12:06 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:12:06 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:12:06 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:12:06 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:12:12 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:12:12 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:12:12 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:13:56 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 40644@DESKTOP-RUEBSAP
+
+[2024-02-25 10:13:56 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:13:56 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:13:56 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:13:56 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:13:56 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:13:56 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:14:02 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:14:02 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:14:08 #10 type.registry] 
+New type java.lang.Class
+
+[2024-02-25 10:14:33 #11 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 10:14:33 #12 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:15:25 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 65204@DESKTOP-RUEBSAP
+
+[2024-02-25 10:15:25 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:15:25 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:15:25 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:15:25 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:15:26 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:15:26 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:15:42 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:15:42 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:15:58 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:16:56 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 67268@DESKTOP-RUEBSAP
+
+[2024-02-25 10:16:57 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:16:57 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:16:57 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:16:57 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:16:57 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:16:57 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:16:59 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:16:59 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:16:59 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:20:30 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 58724@DESKTOP-RUEBSAP
+
+[2024-02-25 10:20:30 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:20:30 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:20:30 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:20:30 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:20:30 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:20:30 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:20:43 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:20:43 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:21:26 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:24:24 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 12728@DESKTOP-RUEBSAP
+
+[2024-02-25 10:24:24 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:24:24 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:24:24 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:24:24 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:24:24 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:24:24 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:24:28 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:24:28 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:24:28 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:27:46 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 62012@DESKTOP-RUEBSAP
+
+[2024-02-25 10:27:46 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:27:46 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:27:46 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:27:46 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:27:46 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:27:46 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:29:49 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 66516@DESKTOP-RUEBSAP
+
+[2024-02-25 10:29:49 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:29:49 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:29:49 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:29:49 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:29:49 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:29:49 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:29:56 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 57316@DESKTOP-RUEBSAP
+
+[2024-02-25 10:29:56 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:29:56 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:29:56 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:29:56 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:29:56 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:29:56 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:33:36 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 40744@DESKTOP-RUEBSAP
+
+[2024-02-25 10:33:36 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:33:36 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:33:36 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:33:36 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:33:36 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:33:36 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:36:04 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 51856@DESKTOP-RUEBSAP
+
+[2024-02-25 10:36:04 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:36:04 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:36:04 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:36:04 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:36:04 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:36:04 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:37:00 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 26876@DESKTOP-RUEBSAP
+
+[2024-02-25 10:37:00 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:37:00 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:37:00 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:37:00 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:37:00 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:37:00 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:37:04 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:37:04 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:37:04 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:37:18 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 55140@DESKTOP-RUEBSAP
+
+[2024-02-25 10:37:18 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:37:18 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:37:18 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:37:18 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:37:18 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:37:18 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:37:22 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:37:22 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:37:22 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:42:34 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 53664@DESKTOP-RUEBSAP
+
+[2024-02-25 10:42:34 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:42:34 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:42:34 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:42:34 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:42:34 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:42:34 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:42:40 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:42:40 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:42:40 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:43:07 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 45408@DESKTOP-RUEBSAP
+
+[2024-02-25 10:43:07 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:43:07 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:43:07 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:43:07 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:43:07 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:43:07 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:43:10 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:43:10 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:43:10 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:47:33 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 63752@DESKTOP-RUEBSAP
+
+[2024-02-25 10:47:33 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:47:33 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:47:33 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:47:33 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:47:33 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:47:33 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:48:51 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 56512@DESKTOP-RUEBSAP
+
+[2024-02-25 10:48:51 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:48:51 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:48:51 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:48:51 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:48:51 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:48:51 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:49:15 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:49:15 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:49:15 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:51:25 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 49116@DESKTOP-RUEBSAP
+
+[2024-02-25 10:51:25 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:51:25 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:51:25 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:51:25 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:51:25 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:51:25 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 10:58:34 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64056@DESKTOP-RUEBSAP
+
+[2024-02-25 10:58:34 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 10:58:34 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 10:58:34 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 10:58:34 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 10:58:34 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 10:58:34 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 10:59:24 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 10:59:24 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 10:59:24 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 11:02:18 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 4332@DESKTOP-RUEBSAP
+
+[2024-02-25 11:02:18 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 11:02:18 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 11:02:18 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 11:02:18 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 11:02:18 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 11:02:18 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 11:02:27 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 62208@DESKTOP-RUEBSAP
+
+[2024-02-25 11:02:28 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 11:02:28 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 11:02:28 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 11:02:28 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 11:02:28 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 11:02:28 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 11:03:54 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 67012@DESKTOP-RUEBSAP
+
+[2024-02-25 11:03:54 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 11:03:54 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 11:03:54 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 11:03:54 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 11:03:54 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 11:03:54 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 11:03:58 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 11:03:58 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 11:03:58 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 12:52:24 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 62140@DESKTOP-RUEBSAP
+
+[2024-02-25 12:52:24 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 12:52:24 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 12:52:24 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 12:52:24 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 12:52:24 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 12:52:24 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 12:53:13 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 12:53:13 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 12:53:13 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 12:55:52 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 42572@DESKTOP-RUEBSAP
+
+[2024-02-25 12:55:52 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 12:55:52 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 12:55:52 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 12:55:52 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 12:55:52 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 12:55:52 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 12:55:55 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 12:55:55 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 12:55:55 #10 type.registry] 
+New type java.lang.Class
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 12:57:54 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 13696@DESKTOP-RUEBSAP
+
+[2024-02-25 12:57:54 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 12:57:54 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 12:57:54 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 12:57:54 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 12:57:54 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 12:57:54 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 12:57:57 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 12:57:57 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 12:58:05 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 12:58:05 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 13:33:10 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 69024@DESKTOP-RUEBSAP
+
+[2024-02-25 13:33:10 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 13:33:10 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 13:33:10 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 13:33:10 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 13:33:10 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 13:33:10 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 13:33:16 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 13:33:16 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 13:34:23 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 43316@DESKTOP-RUEBSAP
+
+[2024-02-25 13:34:23 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 13:34:23 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 13:34:23 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 13:34:23 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 13:34:23 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 13:34:23 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 13:34:26 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 13:34:26 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 13:35:27 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 58696@DESKTOP-RUEBSAP
+
+[2024-02-25 13:35:27 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 13:35:27 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 13:35:27 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 13:35:27 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 13:35:27 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 13:35:27 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 13:35:32 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 13:35:32 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 13:37:04 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 47540@DESKTOP-RUEBSAP
+
+[2024-02-25 13:37:04 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 13:37:04 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 13:37:04 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 13:37:04 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 13:37:04 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 13:37:04 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 13:37:07 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 13:37:07 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 13:52:53 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 42456@DESKTOP-RUEBSAP
+
+[2024-02-25 13:52:53 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 13:52:53 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 13:52:53 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 13:52:53 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 13:52:53 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 13:52:53 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 13:52:56 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 13:52:56 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 13:56:22 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 61068@DESKTOP-RUEBSAP
+
+[2024-02-25 13:56:22 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 13:56:22 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 13:56:22 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 13:56:22 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 13:56:23 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 13:56:23 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 13:56:26 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 13:56:26 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 13:57:40 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 69568@DESKTOP-RUEBSAP
+
+[2024-02-25 13:57:40 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 13:57:40 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 13:57:40 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 13:57:40 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 13:57:40 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 13:57:40 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 13:57:54 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 13:57:54 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 13:58:04 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 13:58:04 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 14:11:27 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 10404@DESKTOP-RUEBSAP
+
+[2024-02-25 14:11:27 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 14:11:27 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 14:11:27 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 14:11:27 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 14:11:27 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 14:11:27 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 14:11:38 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 14:11:38 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 15:45:38 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 69868@DESKTOP-RUEBSAP
+
+[2024-02-25 15:45:39 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 15:45:39 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 15:45:39 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 15:45:39 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 15:45:39 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 15:45:39 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 15:45:49 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 15:45:49 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 15:48:04 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 63384@DESKTOP-RUEBSAP
+
+[2024-02-25 15:48:04 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 15:48:04 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 15:48:04 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 15:48:04 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 15:48:04 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 15:48:04 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 15:48:16 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 15:48:16 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 15:48:16 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 15:48:16 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 15:51:09 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 21176@DESKTOP-RUEBSAP
+
+[2024-02-25 15:51:09 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 15:51:09 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 15:51:09 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 15:51:09 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 15:51:09 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 15:51:09 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 15:51:12 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 15:51:12 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 15:51:15 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 15:51:15 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 15:56:31 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 47980@DESKTOP-RUEBSAP
+
+[2024-02-25 15:56:31 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 15:56:31 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 15:56:31 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 15:56:31 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 15:56:31 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 15:56:31 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 15:56:35 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 15:56:35 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 16:03:38 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 12836@DESKTOP-RUEBSAP
+
+[2024-02-25 16:03:38 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 16:03:38 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 16:03:38 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 16:03:38 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 16:03:38 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 16:03:38 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 16:03:42 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 16:03:42 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 16:03:53 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 16:03:53 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 16:04:03 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 53340@DESKTOP-RUEBSAP
+
+[2024-02-25 16:04:03 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 16:04:03 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 16:04:03 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 16:04:03 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 16:04:03 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 16:04:03 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 16:04:07 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 16:04:07 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 16:08:49 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 20208@DESKTOP-RUEBSAP
+
+[2024-02-25 16:08:49 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 16:08:49 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 16:08:49 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 16:08:49 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 16:08:49 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 16:08:49 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 16:08:59 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 16:08:59 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 16:08:59 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 16:08:59 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:29:23 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 54052@DESKTOP-RUEBSAP
+
+[2024-02-25 23:29:23 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:29:23 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:29:23 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:29:23 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:29:23 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:29:23 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:29:27 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:29:27 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 23:29:27 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 23:29:27 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:32:27 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 49160@DESKTOP-RUEBSAP
+
+[2024-02-25 23:32:27 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:32:27 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:32:27 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:32:27 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:32:27 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:32:27 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:32:30 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:32:30 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 23:32:30 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 23:32:30 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:40:31 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 63468@DESKTOP-RUEBSAP
+
+[2024-02-25 23:40:31 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:40:31 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:40:31 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:40:31 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:40:31 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:40:31 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:40:34 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:40:34 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:41:17 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 35824@DESKTOP-RUEBSAP
+
+[2024-02-25 23:41:17 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:41:17 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:41:17 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:41:17 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:41:17 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:41:17 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:41:20 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:41:20 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 23:41:20 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 23:41:20 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:48:19 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 66644@DESKTOP-RUEBSAP
+
+[2024-02-25 23:48:19 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:48:19 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:48:19 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:48:19 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:48:19 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:48:19 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:48:21 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:48:21 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 23:48:21 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 23:48:21 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:49:47 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 26772@DESKTOP-RUEBSAP
+
+[2024-02-25 23:49:47 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:49:47 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:49:47 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:49:47 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:49:47 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:49:47 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:49:54 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:49:54 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 23:49:54 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 23:49:54 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:53:03 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 61084@DESKTOP-RUEBSAP
+
+[2024-02-25 23:53:03 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:53:03 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:53:03 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:53:03 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:53:03 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:53:03 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:53:13 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:53:13 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-25 23:53:13 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-25 23:53:13 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-25 23:59:41 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 42252@DESKTOP-RUEBSAP
+
+[2024-02-25 23:59:41 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-25 23:59:41 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-25 23:59:41 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-25 23:59:41 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-25 23:59:41 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-25 23:59:41 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-25 23:59:45 #8 type.registry] 
+New type domain.User
+
+[2024-02-25 23:59:45 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-26 00:00:03 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-26 00:00:03 #11 type] 
+Type domain.Traveler is not enhanced.
+

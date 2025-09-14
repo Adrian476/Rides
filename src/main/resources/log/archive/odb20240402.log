@@ -1,0 +1,423 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 17:46:27 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 101156@DESKTOP-RUEBSAP
+
+[2024-04-02 17:46:28 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 17:46:28 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 17:46:28 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 17:46:28 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 17:46:28 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 17:46:28 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 17:46:28 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 17:46:28 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 17:46:28 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 17:46:28 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 17:46:28 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 17:46:28 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 17:46:28 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 17:46:28 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 17:48:24 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 97868@DESKTOP-RUEBSAP
+
+[2024-04-02 17:48:24 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 17:48:24 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 17:48:24 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 17:48:24 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 17:48:24 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 17:48:24 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 17:48:24 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 17:48:24 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 17:48:24 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 17:48:24 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 17:48:24 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 17:48:24 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 17:48:24 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 17:48:24 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 17:53:28 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 104544@DESKTOP-RUEBSAP
+
+[2024-04-02 17:53:28 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 17:53:28 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 17:53:28 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 17:53:28 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 17:53:28 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 17:53:28 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 17:53:28 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 17:53:28 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 17:53:28 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 17:53:28 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 17:53:28 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 17:53:28 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 17:53:28 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 17:53:28 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 17:54:11 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 85200@DESKTOP-RUEBSAP
+
+[2024-04-02 17:54:11 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 17:54:11 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 17:54:11 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 17:54:11 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 17:54:11 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 17:54:11 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 17:54:11 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 17:54:11 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 17:54:11 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 17:54:11 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 17:54:11 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 17:54:11 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 17:54:11 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 17:54:11 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 17:55:54 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 84848@DESKTOP-RUEBSAP
+
+[2024-04-02 17:55:54 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 17:55:54 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 17:55:54 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 17:55:54 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 17:55:54 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 17:55:54 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 17:55:54 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 17:55:54 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 17:55:54 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 17:55:54 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 17:55:54 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 17:55:54 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 17:55:54 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 17:55:54 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 17:58:04 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 80320@DESKTOP-RUEBSAP
+
+[2024-04-02 17:58:04 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 17:58:04 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 17:58:04 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 17:58:04 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 17:58:04 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 17:58:04 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 17:58:04 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 17:58:04 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 17:58:04 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 17:58:04 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 17:58:04 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 17:58:04 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 17:58:04 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 17:58:04 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 18:01:41 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 105124@DESKTOP-RUEBSAP
+
+[2024-04-02 18:01:41 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 18:01:41 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 18:01:41 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 18:01:41 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 18:01:41 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 18:01:41 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 18:01:41 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 18:01:41 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 18:01:41 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 18:01:41 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 18:01:41 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 18:01:41 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 18:01:41 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 18:01:41 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 18:02:34 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 100888@DESKTOP-RUEBSAP
+
+[2024-04-02 18:02:34 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 18:02:34 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 18:02:34 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 18:02:34 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 18:02:34 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 18:02:34 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 18:02:34 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 18:02:34 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 18:02:34 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 18:02:34 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 18:02:34 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 18:02:34 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 18:02:34 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 18:02:34 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-02 18:11:36 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 94848@DESKTOP-RUEBSAP
+
+[2024-04-02 18:11:36 #2 type.registry] 
+New type domain.User
+
+[2024-04-02 18:11:36 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-02 18:11:36 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-02 18:11:36 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-02 18:11:36 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-02 18:11:36 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-02 18:11:36 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-02 18:11:36 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-02 18:11:36 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-02 18:11:36 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-02 18:11:36 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-02 18:11:36 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-02 18:11:36 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-02 18:11:36 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+

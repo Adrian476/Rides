@@ -1,0 +1,47 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-21 18:04:14 #1 store] 
+Database 'C:\Users\pboad\git\repository\Rides24\src\main\resources\rides.temp' is opened by 80324@DESKTOP-RUEBSAP
+
+[2024-04-21 18:04:14 #2 type.registry] 
+New type domain.User
+
+[2024-04-21 18:04:14 #3 type] 
+Type domain.User is not enhanced.
+
+[2024-04-21 18:04:14 #4 type.registry] 
+New type domain.Traveler
+
+[2024-04-21 18:04:14 #5 type] 
+Type domain.Traveler is not enhanced.
+
+[2024-04-21 18:04:14 #6 type.registry] 
+New type domain.Ride
+
+[2024-04-21 18:04:14 #7 type.registry] 
+New type domain.PaymentInfo
+
+[2024-04-21 18:04:14 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-21 18:04:14 #9 type] 
+Type domain.PaymentInfo is not enhanced.
+
+[2024-04-21 18:04:14 #10 type.registry] 
+New type domain.Driver
+
+[2024-04-21 18:04:14 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-21 18:04:14 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2024-04-21 18:04:14 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-21 18:04:14 #14 type.registry] 
+New type java.util.ArrayList<domain.PaymentInfo>
+
+[2024-04-21 18:04:14 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+

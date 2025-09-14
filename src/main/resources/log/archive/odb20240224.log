@@ -1,0 +1,1477 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:16:11 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 39488@DESKTOP-RUEBSAP
+
+[2024-02-24 16:16:11 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:16:11 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:16:11 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:16:11 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:16:11 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:16:11 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:16:11 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:17:26 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 47208@DESKTOP-RUEBSAP
+
+[2024-02-24 16:17:27 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:17:27 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:17:27 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:17:27 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:17:27 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:17:27 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:17:27 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:24:53 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 68476@DESKTOP-RUEBSAP
+
+[2024-02-24 16:24:53 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:24:53 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:24:53 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:24:53 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:24:53 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:24:53 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:24:53 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:27:11 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64980@DESKTOP-RUEBSAP
+
+[2024-02-24 16:27:12 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:27:12 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:27:12 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:27:12 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:27:12 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:27:12 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:27:12 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:28:11 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 52160@DESKTOP-RUEBSAP
+
+[2024-02-24 16:28:11 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:28:11 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:28:11 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:28:11 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:28:11 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:28:11 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:28:11 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:30:48 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 60948@DESKTOP-RUEBSAP
+
+[2024-02-24 16:30:48 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:30:48 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:30:48 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:30:48 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:30:48 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:30:48 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:30:48 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:32:33 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 65120@DESKTOP-RUEBSAP
+
+[2024-02-24 16:32:33 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:32:33 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:32:33 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:32:33 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:32:33 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:32:33 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:32:33 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:36:12 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 53396@DESKTOP-RUEBSAP
+
+[2024-02-24 16:36:12 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:36:12 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:36:12 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:36:12 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:36:12 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:36:12 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:36:12 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:36:29 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64836@DESKTOP-RUEBSAP
+
+[2024-02-24 16:36:29 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:36:29 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:36:29 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:36:29 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:36:29 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:36:29 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:36:29 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:53:45 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 59316@DESKTOP-RUEBSAP
+
+[2024-02-24 16:53:45 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:53:45 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:53:45 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:53:45 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:53:45 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:53:45 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:53:45 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:54:17 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64340@DESKTOP-RUEBSAP
+
+[2024-02-24 16:54:17 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:54:17 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:54:17 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:54:17 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:54:17 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:54:17 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:54:17 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 16:54:50 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 68112@DESKTOP-RUEBSAP
+
+[2024-02-24 16:54:50 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 16:54:50 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 16:54:50 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 16:54:50 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 16:54:50 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 16:54:50 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 16:54:50 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:08:31 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 44080@DESKTOP-RUEBSAP
+
+[2024-02-24 17:08:31 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:08:31 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:08:31 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:08:31 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:08:31 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:08:31 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:08:31 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:11:18 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 68332@DESKTOP-RUEBSAP
+
+[2024-02-24 17:11:18 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:11:18 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:11:18 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:11:18 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:11:18 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:11:18 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:11:18 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:11:54 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 50552@DESKTOP-RUEBSAP
+
+[2024-02-24 17:11:55 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:11:55 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:11:55 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:11:55 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:11:55 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:11:55 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:11:55 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:13:13 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 30080@DESKTOP-RUEBSAP
+
+[2024-02-24 17:13:13 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:13:13 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:13:13 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:13:13 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:13:13 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:13:13 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:13:13 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:14:04 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 33880@DESKTOP-RUEBSAP
+
+[2024-02-24 17:14:04 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:14:04 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:14:04 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:14:04 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:14:04 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:14:04 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:14:04 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:14:11 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 52352@DESKTOP-RUEBSAP
+
+[2024-02-24 17:14:11 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:14:11 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:14:11 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:14:11 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:14:11 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:14:11 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:14:11 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:15:15 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 58484@DESKTOP-RUEBSAP
+
+[2024-02-24 17:15:15 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:15:15 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:15:15 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:15:15 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:15:15 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:15:15 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:15:15 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:15:31 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 57900@DESKTOP-RUEBSAP
+
+[2024-02-24 17:15:31 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:15:31 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:15:31 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:15:31 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:15:31 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:15:31 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:15:31 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:16:16 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 65684@DESKTOP-RUEBSAP
+
+[2024-02-24 17:16:16 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:16:16 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:16:16 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:16:16 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:16:16 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:16:16 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:16:16 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:19:02 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 52600@DESKTOP-RUEBSAP
+
+[2024-02-24 17:19:02 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:19:02 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:19:02 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:19:02 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:19:02 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:19:02 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:19:02 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:23:50 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 15800@DESKTOP-RUEBSAP
+
+[2024-02-24 17:23:50 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:23:50 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:23:50 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:23:50 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:23:50 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:23:50 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:23:50 #8 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:24:32 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 65860@DESKTOP-RUEBSAP
+
+[2024-02-24 17:24:32 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:24:32 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:24:32 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:24:32 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:24:32 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:24:32 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 17:24:32 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:24:32 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:26:44 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 67044@DESKTOP-RUEBSAP
+
+[2024-02-24 17:26:44 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:26:44 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:26:44 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:26:44 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:26:44 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:26:44 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 17:26:45 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:26:45 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:33:40 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 67024@DESKTOP-RUEBSAP
+
+[2024-02-24 17:33:40 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:33:40 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:33:40 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:33:40 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:33:40 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:33:40 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 17:33:40 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:33:40 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:34:33 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 18000@DESKTOP-RUEBSAP
+
+[2024-02-24 17:34:33 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:34:33 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:34:33 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:34:33 #5 type.registry] 
+New type domain.User
+
+[2024-02-24 17:34:33 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:34:33 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 17:34:33 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:34:33 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:46:01 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 48048@DESKTOP-RUEBSAP
+
+[2024-02-24 17:46:01 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:46:01 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:46:01 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:46:01 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:46:01 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:46:01 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:46:19 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 20744@DESKTOP-RUEBSAP
+
+[2024-02-24 17:46:19 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:46:19 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:46:19 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:46:19 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:46:19 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:46:19 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 17:46:24 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 17:46:24 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:47:16 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 43400@DESKTOP-RUEBSAP
+
+[2024-02-24 17:47:16 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:47:16 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:47:16 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:47:16 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:47:16 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:47:16 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 17:47:19 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 17:47:19 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:49:44 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 49444@DESKTOP-RUEBSAP
+
+[2024-02-24 17:49:44 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:49:44 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:49:44 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:49:44 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:49:44 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:49:44 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 17:49:50 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 17:49:50 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 17:52:48 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 56448@DESKTOP-RUEBSAP
+
+[2024-02-24 17:52:48 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 17:52:48 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 17:52:48 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 17:52:48 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 17:52:48 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 17:52:48 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 17:52:51 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 17:52:51 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:06:26 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64244@DESKTOP-RUEBSAP
+
+[2024-02-24 18:06:26 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:06:26 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:06:26 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:06:26 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:06:26 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:06:26 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:06:30 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:06:30 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 18:06:30 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-24 18:06:30 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:10:47 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 55116@DESKTOP-RUEBSAP
+
+[2024-02-24 18:10:47 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:10:47 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:10:47 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:10:47 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:10:47 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:10:47 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:10:50 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:10:50 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 18:10:50 #10 type.registry] 
+New type domain.Traveler
+
+[2024-02-24 18:10:50 #11 type] 
+Type domain.Traveler is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:12:26 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 52364@DESKTOP-RUEBSAP
+
+[2024-02-24 18:12:26 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:12:26 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:12:26 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:12:26 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:12:26 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:12:26 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:12:30 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:12:30 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:14:13 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 58904@DESKTOP-RUEBSAP
+
+[2024-02-24 18:14:13 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:14:13 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:14:13 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:14:13 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:14:13 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:14:13 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:14:16 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:14:16 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:15:19 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64748@DESKTOP-RUEBSAP
+
+[2024-02-24 18:15:19 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:15:19 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:15:19 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:15:19 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:15:19 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:15:19 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:15:22 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:15:22 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:25:06 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 64468@DESKTOP-RUEBSAP
+
+[2024-02-24 18:25:06 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:25:06 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:25:06 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:25:06 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:25:06 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:25:06 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:25:10 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:25:10 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:28:23 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 49540@DESKTOP-RUEBSAP
+
+[2024-02-24 18:28:23 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:28:23 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:28:23 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:28:23 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:28:23 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:28:23 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:28:27 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:28:27 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 18:28:28 #10 *] 
+java.lang.ClassCastException: class com.objectdb.o.STT cannot be cast to class com.objectdb.o.UTY (com.objectdb.o.STT and com.objectdb.o.UTY are in unnamed module of loader 'app')
+	at com.objectdb.o.OBC.aH(OBC.java:713)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:582)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:519)
+	at dataAccess.DataAccess.registerUser(DataAccess.java:239)
+	at businessLogic.BLFacadeImplementation.registerUser(BLFacadeImplementation.java:126)
+	at gui.RegisterGUI$3.actionPerformed(RegisterGUI.java:117)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+[2024-02-24 18:28:48 #11 *] 
+java.lang.ClassCastException: class com.objectdb.o.STT cannot be cast to class com.objectdb.o.UTY (com.objectdb.o.STT and com.objectdb.o.UTY are in unnamed module of loader 'app')
+	at com.objectdb.o.OBC.aH(OBC.java:713)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:582)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:519)
+	at dataAccess.DataAccess.registerUser(DataAccess.java:239)
+	at businessLogic.BLFacadeImplementation.registerUser(BLFacadeImplementation.java:126)
+	at gui.RegisterGUI$3.actionPerformed(RegisterGUI.java:117)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+[2024-02-24 18:28:51 #12 *] 
+java.lang.ClassCastException: class com.objectdb.o.STT cannot be cast to class com.objectdb.o.UTY (com.objectdb.o.STT and com.objectdb.o.UTY are in unnamed module of loader 'app')
+	at com.objectdb.o.OBC.aH(OBC.java:713)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:582)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:519)
+	at dataAccess.DataAccess.registerUser(DataAccess.java:239)
+	at businessLogic.BLFacadeImplementation.registerUser(BLFacadeImplementation.java:126)
+	at gui.RegisterGUI$3.actionPerformed(RegisterGUI.java:117)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+[2024-02-24 18:28:52 #13 *] 
+java.lang.ClassCastException: class com.objectdb.o.STT cannot be cast to class com.objectdb.o.UTY (com.objectdb.o.STT and com.objectdb.o.UTY are in unnamed module of loader 'app')
+	at com.objectdb.o.OBC.aH(OBC.java:713)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:582)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:519)
+	at dataAccess.DataAccess.registerUser(DataAccess.java:239)
+	at businessLogic.BLFacadeImplementation.registerUser(BLFacadeImplementation.java:126)
+	at gui.RegisterGUI$3.actionPerformed(RegisterGUI.java:117)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:29:17 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 67144@DESKTOP-RUEBSAP
+
+[2024-02-24 18:29:17 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:29:17 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:29:17 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:29:17 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:29:17 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:29:17 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:29:21 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:29:21 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 18:29:23 #10 *] 
+java.lang.ClassCastException: class com.objectdb.o.STT cannot be cast to class com.objectdb.o.UTY (com.objectdb.o.STT and com.objectdb.o.UTY are in unnamed module of loader 'app')
+	at com.objectdb.o.OBC.aH(OBC.java:713)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:582)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:519)
+	at dataAccess.DataAccess.registerUser(DataAccess.java:239)
+	at businessLogic.BLFacadeImplementation.registerUser(BLFacadeImplementation.java:126)
+	at gui.RegisterGUI$3.actionPerformed(RegisterGUI.java:117)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:33:20 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 63960@DESKTOP-RUEBSAP
+
+[2024-02-24 18:33:20 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:33:20 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:33:20 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:33:20 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:33:20 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:33:20 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:33:23 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:33:23 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-02-24 18:33:23 #10 *] 
+java.lang.ClassCastException: class com.objectdb.o.STT cannot be cast to class com.objectdb.o.UTY (com.objectdb.o.STT and com.objectdb.o.UTY are in unnamed module of loader 'app')
+	at com.objectdb.o.OBC.aH(OBC.java:713)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:582)
+	at com.objectdb.jpa.EMImpl.find(EMImpl.java:519)
+	at dataAccess.DataAccess.registerUser(DataAccess.java:239)
+	at businessLogic.BLFacadeImplementation.registerUser(BLFacadeImplementation.java:126)
+	at gui.RegisterGUI$3.actionPerformed(RegisterGUI.java:117)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:34:50 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 62124@DESKTOP-RUEBSAP
+
+[2024-02-24 18:34:50 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:34:50 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:34:50 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:34:50 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:34:50 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:34:50 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:34:54 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:34:54 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:36:26 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 66268@DESKTOP-RUEBSAP
+
+[2024-02-24 18:36:26 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:36:26 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:36:26 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:36:26 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:36:26 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:36:26 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:36:29 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:36:29 #9 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-02-24 18:40:12 #1 store] 
+Database 'C:\Users\pboad\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 55960@DESKTOP-RUEBSAP
+
+[2024-02-24 18:40:12 #2 type.registry] 
+New type domain.Driver
+
+[2024-02-24 18:40:12 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-02-24 18:40:12 #4 type.registry] 
+New type domain.Ride
+
+[2024-02-24 18:40:12 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-02-24 18:40:12 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-02-24 18:40:12 #7 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-02-24 18:40:18 #8 type.registry] 
+New type domain.User
+
+[2024-02-24 18:40:18 #9 type] 
+Type domain.User is not enhanced.
+
