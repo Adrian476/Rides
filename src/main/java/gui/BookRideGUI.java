@@ -200,9 +200,9 @@ public class BookRideGUI extends JFrame {
 			//Aqui hay un pequeño error de consistencia!
 			btnVolver.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					TravelerGUI T = new TravelerGUI(traveler);
-					T.setLocationRelativeTo(null);
-					T.setVisible(true);
+					TravelerGUI t = new TravelerGUI(traveler);
+					t.setLocationRelativeTo(null);
+					t.setVisible(true);
 					dispose();
 				}
 			});
