@@ -1,17 +1,194 @@
 
-/domain.Question#getQuestion()Ljava/lang/String;I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.javaH H("1*«
-1I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.javaI	 I(è
-å
-I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.javaI	 I(
-%0java.lang.String"__id*!*
-domain.Question"
+>dataAccess.DataAccess#registerUser(Ldomain/User;)Ldomain/User;}
+qC:/Users/Shirley/OneDrive/UPV/5 curso/IS2/proyecto/adrian/conAyuda/Rides/src/main/java/dataAccess/DataAccess.java§ §("7*Í
+3
+≠ ≠(çä
 
-question"e
-I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.javaI I(
+≠ ≠(
+%11domain.Driver"&domain.User#getDriver()Ldomain/Driver;*1
+
+__unknown_file (
+
+userdomain.User2getDriver() «
+
+≠ ≠(&
+%12void")domain.Driver#setUserInfo(Ldomain/User;)V*2
+
+__unknown_file (
+
+%11domain.Driver*1
+
+__unknown_file (
+
+userdomain.User2setUserInfo(Ldomain/User;)çä
+
+Æ Æ(
+%13domain.Driver"&domain.User#getDriver()Ldomain/Driver;*1
+
+__unknown_file (
+
+userdomain.User2getDriver()ëé
+
+Æ Æ(-
+%14java.lang.String"(domain.User#getEmail()Ljava/lang/String;*1
+
+__unknown_file (
+
+userdomain.User2
+getEmail()“œ
+
+Æ Æ(.
+%15void"+domain.Driver#setEmail(Ljava/lang/String;)V*2
+
+__unknown_file (
+
+%13domain.Driver*5
+
+__unknown_file (
+
+%14java.lang.String2setEmail(Ljava/lang/String;)*
+1*¢
+4
+¨ ¨(åâ
+
+¨ ¨(
+%9domain.Driver"&domain.User#getDriver()Ldomain/Driver;*1
+
+__unknown_file (
+
+userdomain.User2getDriver()z
+x
+
+¨ ¨($
+%10boolean"	__compare*
+
+¨ ¨(
+!=*#
+
+¨ ¨(
+
+%9domain.Driver*
+
+¨  ¨($
+""*
+3
+1*˙
+5
+© ©(îë
+
+© ©(
+%4domain.Traveler"*domain.User#getTraveler()Ldomain/Traveler;*1
+
+__unknown_file (
+
+userdomain.User2getTraveler()Ã…
+
+© ©((
+
+%5void"+domain.Traveler#setUserInfo(Ldomain/User;)V*3
+
+__unknown_file (
+
+%4domain.Traveler*1
+
+__unknown_file (
+
+userdomain.User2setUserInfo(Ldomain/User;)îë
+
+™ ™(
+%6domain.Traveler"*domain.User#getTraveler()Ldomain/Traveler;*1
+
+__unknown_file (
+
+userdomain.User2getTraveler()êç
+
+™  ™(/
+%7java.lang.String"(domain.User#getEmail()Ljava/lang/String;*1
+
+__unknown_file (
+
+userdomain.User2
+getEmail()”–
+
+™ ™(0
+
+%8void"-domain.Traveler#setEmail(Ljava/lang/String;)V*3
+
+__unknown_file (
+
+%6domain.Traveler*4
+
+__unknown_file (
 
-%0java.lang.StringB
-domain.Question
+%7java.lang.String2setEmail(Ljava/lang/String;)*
+1*´
+6
+ß ß(îë
+
+® ®(
+%2domain.Traveler"*domain.User#getTraveler()Ldomain/Traveler;*1
+
+__unknown_file (
+
+userdomain.User2getTraveler(){
+y
+
+® ®( 
+%3boolean"	__compare*
+
+® ®(
+!=*%
+
+® ®(
+
+%2domain.Traveler*
+
+® ®( 
+""*
+4
+5*Ó
+7
+• •(êç
+
+• •(.
+%0java.lang.String"(domain.User#getEmail()Ljava/lang/String;*1
+
+__unknown_file (
+
+userdomain.User2
+getEmail()J
+H
+
+• •(0
+udomain.User"__id*"
+
+__unknown_file (
+""v
+t
+
+¶ ¶(
+%1boolean"	__compare*
+
+¶ ¶(	
+==* 
+
+¶ ¶(
+
+udomain.User*
+
+¶
+ ¶(
+""*
+6
+1*1
+1
+≥	 ≥(
+" 
+
+≥ ≥(
+
+udomain.User:!
+
+§ §(#
+userdomain.UserB
+dataAccess.DataAccessH

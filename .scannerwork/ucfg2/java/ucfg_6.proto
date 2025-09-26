@@ -1,18 +1,39 @@
 
-Fdomain.IntegerAdapter#unmarshal(Ljava/lang/String;)Ljava/lang/Integer;O
-E/Users/iturrioz/git/Bets2021/src/main/java/domain/IntegerAdapter.java ("1*÷
-1O
-E/Users/iturrioz/git/Bets2021/src/main/java/domain/IntegerAdapter.java (À
-½
-O
-E/Users/iturrioz/git/Bets2021/src/main/java/domain/IntegerAdapter.java ("	
-%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
+9dataAccess.DataAccess#addRide(Ldomain/Ride;)Ldomain/Ride;}
+qC:/Users/Shirley/OneDrive/UPV/5 curso/IS2/proyecto/adrian/conAyuda/Rides/src/main/java/dataAccess/DataAccess.javaˆ ˆ("1*ï
+1
+‰ ‰(”‘
+
+‰& ‰(:
+%0domain.Driver"*domain.Ride#getDriverInfo()Ldomain/Driver;*1
+
+__unknown_file (
+
+ridedomain.Ride2getDriverInfo()O
+M
+
+‰ ‰(<
+drvrdomain.Driver"__id*"
+
+__unknown_file (
+""ÐÍ
+
+Œ Œ(
+
+%1void",domain.Driver#addCreatedRide(Ldomain/Ride;)V*3
+
+__unknown_file (
 
-sjava.lang.String"^
-O
-E/Users/iturrioz/git/Bets2021/src/main/java/domain/IntegerAdapter.java (#
-	
-%0int:
-sjava.lang.StringB
-domain.IntegerAdapter
+drvrdomain.Driver*1
+
+__unknown_file (
+
+ridedomain.Ride2addCreatedRide(Ldomain/Ride;)"#
+
+ (
+
+ridedomain.Ride:!
+
+ˆ ˆ(
+ridedomain.RideB
+dataAccess.DataAccessH

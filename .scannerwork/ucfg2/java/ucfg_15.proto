@@ -1,16 +1,101 @@
 
-6domain.Question#getQuestionNumber()Ljava/lang/Integer;I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.java4 4(!"1*Ï
-1I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.java5	 5(–
-“
-I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.java5	 5(
-%0java.lang.Integer"__id*'*%
-domain.Question"
-questionNumber"f
-I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.java5 5(
+dataAccess.DataAccess#getRideStopsByCod(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/lang/Integer;)Ldomain/Ride;}
+qC:/Users/Shirley/OneDrive/UPV/5 curso/IS2/proyecto/adrian/conAyuda/Rides/src/main/java/dataAccess/DataAccess.java” ”("4*%
+2
+™ ™("
+
+™ ™(
+""*×
+3
+— —(ƒ€
+
+— —(=
+%1java.util.List"vdataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)Ljava/util/List;*5
+
+__unknown_file (
+dataAccess.DataAccess*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date*7
+
+__unknown_file (
+
+statejava.lang.String2PgetRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)a
+_
+
+— —(>
+ridesjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.ListÔÑ
+
+˜
+ ˜(
+%2boolean",java.util.List#contains(Ljava/lang/Object;)Z*5
+
+__unknown_file (
 
-%0java.lang.IntegerB
-domain.Question
+ridesjava.util.List*1
+
+__unknown_file (
+
+ridedomain.Ride2contains(Ljava/lang/Object;)*
+2
+1*á
+4
+• •(M
+K
+
+• •()
+ridedomain.Ride"__id*"
+
+__unknown_file (
+""y
+w
+
+– –(
+%0boolean"	__compare*
+
+– –(
+!=*#
+
+– –(
+
+ridedomain.Ride*
+
+– –(
+""*
+3
+1*4
+1
+›	 ›("#
+
+› ›(
+
+ridedomain.Ride:&
+
+” ”(+
+fromjava.lang.String:$
+
+”, ”(6
+tojava.lang.String:$
+
+”7 ”(A
+datejava.util.Date:'
+
+”B ”(O
+statejava.lang.String:%
+
+”P ”(Z
+cdjava.lang.IntegerB
+dataAccess.DataAccessH
