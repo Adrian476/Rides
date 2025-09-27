@@ -12,7 +12,7 @@ import javax.swing.JButton;
 public class DriverGUI extends JFrame {
 	private static final long serialVersionUID = 1L;
 	
-	public JButton btnFindRides = new JButton("Gestionar viajes");
+	public static final JButton btnFindRides = new JButton("Gestionar viajes");
 	private JButton btnExit = new JButton("Cerrar sesión");
 	
 	public DriverGUI(Driver driver) {
