@@ -87,7 +87,7 @@ public class BLFacadeImplementation  implements BLFacade {
 		Ride r = dbManager.addRide(ride);	
 		dbManager.close();
 		return r;
-   };
+   }
 	
 	public Ride bookRide(String from, String to, Date date, Integer cd, Traveler t) {
 		dbManager.open();
