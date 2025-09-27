@@ -24,7 +24,7 @@ public class Driver implements Serializable {
 	private User userInfo;
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private List<Ride> createdRides = new Vector<Ride>();
+	private ArrayList<Ride> createdRides = new ArrayList<>();
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
 	private List<Ride> bookedRides = new Vector<Ride>();
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
