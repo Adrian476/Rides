@@ -437,8 +437,7 @@ public class DataAccess  {
 	
 	public User loginUser(String email, String passw) {
 		User user = db.find(User.class, email);
-		if(user != null) {
-			if(!user.getPassword().equals(passw))
+		if (user != null && user.getPassword().equals(passw)){
 				user.setPassword(null);
 		}
 		if(user != null) {
