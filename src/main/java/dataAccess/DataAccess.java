@@ -32,6 +32,8 @@ public class DataAccess  {
 
 	ConfigXML c=ConfigXML.getInstance();
 
+	private static final String CITY_DONOSTIA = "Donostia";
+
      public DataAccess()  {
 		if (c.isDatabaseInitialized()) {
 			String fileName=c.getDbFilename();
@@ -77,8 +79,8 @@ public class DataAccess  {
 		   if (month==12) { month=1; year+=1;} 
 
 		   
-		   Ride ride1 = new Ride("Donostia", "Madrid");
-		   Ride ride12 = new Ride("Madrid", "Donostia");
+		   Ride ride1 = new Ride(CITY_DONOSTIA, "Madrid");
+		   Ride ride12 = new Ride("Madrid", CITY_DONOSTIA);
 		   ride1.addStop("Alava");
 		   ride1.addStop("Logroño");
 		   ride1.addStop("Soria");
@@ -88,8 +90,8 @@ public class DataAccess  {
 		   ride1.setState("ini");
 		   ride12.setState("ini");
 		   
-		   Ride ride2 = new Ride("Donostia", "Barcelona");
-		   Ride ride22 = new Ride("Barcelona", "Donostia");
+		   Ride ride2 = new Ride(CITY_DONOSTIA, "Barcelona");
+		   Ride ride22 = new Ride("Barcelona", CITY_DONOSTIA);
 		   ride2.addStop("Pamplona");
 		   ride2.addStop("Zaragoza");
 		   ride2.addStop("Tarragona");
@@ -137,8 +139,8 @@ public class DataAccess  {
 		   ride6.setState("ini");
 		   ride62.setState("ini");
 
-		   Ride ride7 = new Ride("Granada", "Donostia");
-		   Ride ride72 = new Ride("Donostia", "Granada");
+		   Ride ride7 = new Ride("Granada", CITY_DONOSTIA);
+		   Ride ride72 = new Ride(CITY_DONOSTIA, "Granada");
 		   ride7.addStop("Jaén");
 		   ride7.addStop("Toledo");
 		   ride7.addStop("Madrid");
@@ -174,40 +176,40 @@ public class DataAccess  {
 		   
 		   List<String> rides = new ArrayList<String>();
 		   rides.add("Pamplona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 2, (float) 22.19, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 2, (float) 22.19, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
 		   rides.add("Pamplona");
 		   rides.add("Zaragoza");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 3, (float) 35.13, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 3, (float) 35.13, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
 		   rides.add("Pamplona");
 		   rides.add("Tarragona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 1, (float) 17.75, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 1, (float) 17.75, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 4, (float) 48.22, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 4, (float) 48.22, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
 		   rides.add("Pamplona");
 		   rides.add("Zaragona");
 		   rides.add("Tarragona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 2, (float) 28.19, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 2, (float) 28.19, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 2, (float) 20.19, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 2, (float) 20.19, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 1, (float) 11.75, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 1, (float) 11.75, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
 		   rides.add("Tarragona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 1, (float) 13.95, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 1, (float) 13.95, userD.getDriver()));
 		   
 		   rides = new ArrayList<String>();
 		   rides.add("Zaragoza");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", "Donostia", rides, newDate(2024, 4, 19), 5, (float) 60.42, userD.getDriver()));
+		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 5, (float) 60.42, userD.getDriver()));
 		   
 
 		   db.persist(userT);
