@@ -29,7 +29,7 @@ import domain.Ride;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
 
-public class GetRideStopsMockWhiteTest {
+public class GetRideStopsBDWhiteTest {
 	
 	static DataAccess sut;
 	
