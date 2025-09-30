@@ -99,7 +99,22 @@
    			 <version>3.4.0</version>
    			 <scope>test</scope>
 		</dependency>
-			
+		<dependency>
+			<groupId>org.objenesis</groupId>
+			<artifactId>objenesis-tck</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.bytebuddy</groupId>
+			<artifactId>byte-buddy-agent</artifactId>
+			<version>1.10.10</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.bytebuddy</groupId>
+			<artifactId>byte-buddy</artifactId>
+			<version>1.10.10</version>
+		</dependency>
 
 	</dependencies>
 
