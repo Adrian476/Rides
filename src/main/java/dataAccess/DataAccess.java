@@ -439,7 +439,8 @@ public class DataAccess  {
 	
 	public User loginUser(String email, String passw) {
 		User user = db.find(User.class, email);
-		if (user != null && user.getPassword().equals(passw)){
+		//Contraseña incorrecta
+		if (user != null && !user.getPassword().equals(passw)){
 				user.setPassword(null);
 		}
 		if(user != null) {
@@ -450,9 +451,7 @@ public class DataAccess  {
 			}
 			else if(user.getTraveler() != null)
 				System.out.println(user.getTraveler().getAcceptedRides());
-		}
-		
-		
+		}	
 		return user;
 	}
 	
