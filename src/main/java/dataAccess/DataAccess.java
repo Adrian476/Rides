@@ -363,7 +363,7 @@ public class DataAccess  {
 	
 	public List<Ride> getRides(String from, String to, Date date, String state) {
 		
-        TypedQuery<Ride> query = db.createQuery("SELECT r FROM Ride r WHERE r.from=?1 AND r.to=?2 AND r.date=?3 AND r.state=?4", Ride.class);  
+        TypedQuery<Ride> query = this.db.createQuery("SELECT r FROM Ride r WHERE r.from=?1 AND r.to=?2 AND r.date=?3 AND r.state=?4", Ride.class);  
         query.setParameter(1, from);
         query.setParameter(2, to);
         query.setParameter(3, date);
@@ -404,7 +404,7 @@ public class DataAccess  {
 	}
 	
 	public Ride getRideStopsByCod(String from, String to, Date date, String state, Integer cd) {
-	    Ride ride = db.find(Ride.class, cd);
+		Ride ride = this.db.find(Ride.class, cd);
 	    if(ride != null) {
 	    	List<Ride> rides = this.getRides(from, to, date, state);
 	    	if(!rides.contains(ride))
