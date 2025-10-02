@@ -3,6 +3,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
+import static org.mockito.Mockito.when;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -17,7 +18,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.mockito.Mock;
+import org.mockito.*;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
@@ -42,6 +43,7 @@ public class GetRideStopsMockWhiteTest {
 	@Mock
     protected  EntityTransaction  et;
 	
+	
 
 	@Before
     public  void init() {
@@ -52,10 +54,9 @@ public class GetRideStopsMockWhiteTest {
         
         Mockito.doReturn(db).when(entityManagerFactory).createEntityManager();
 		Mockito.doReturn(et).when(db).getTransaction();
-	    sut=new DataAccess(db);
-
-
-		
+	    
+		sut=new DataAccess(db);
+	
     }
 	@After
     public  void tearDown() {
@@ -63,29 +64,41 @@ public class GetRideStopsMockWhiteTest {
     }
 	
 	
-	Driver driver;
 
 	@Test
-	 
+	//intentando saber porque da IllegalStateException
+	//viaje no existe, debe devolver null, si salta excepcion o no devuelve null, falla el test
 	public void test1() {
-		
-		
 		try {
-			//configure the state through mocks 
-	        	
+			String from = "A";
+			String to = "B";
+			Date date = new Date();
+			String state = "reservado";
+			Integer cd = 50;
 			
+			when(db.find(Ride.class, cd)).thenReturn(null); //posible excepcion aqui
+			Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
 			
-			//invoke System Under Test (sut)  
-			sut.open();
-			
-			sut.close();
-			assertTrue(true);
-			
-			
+			assertNull(result);
 		} catch (Exception e) {
-			 //verify the results
-				sut.close();
-				fail();
+			fail();
 		}
 	} 
+	
+	@Test
+	//aviso TypeQuery
+	//viaje exite, paradas no, debe devolver null, si salta excepcion o no devuelve null, falla el test
+	public void test2() {
+		
+	}
+	
+	@Test
+	//aviso TypeQuery
+	//viaje con paradas, no debe devolver null, si devuelve null o salta excepcion, falla el test
+	public void test3() {
+		
+	}
+	
+	
+	
 }
