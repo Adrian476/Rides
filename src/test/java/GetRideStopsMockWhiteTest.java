@@ -43,17 +43,17 @@ import exceptions.RideMustBeLaterThanTodayException;
 
 public class GetRideStopsMockWhiteTest {
 	
-	@InjectMocks
-	DataAccess sut;
+	
+	static DataAccess sut;
 	
 	protected MockedStatic <Persistence> persistenceMock;
 
 	@Mock
-	EntityManagerFactory entityManagerFactory;
+	protected EntityManagerFactory entityManagerFactory;
 	@Mock
-	EntityManager db;
+	protected EntityManager db;
 	@Mock
-    EntityTransaction  et;
+	protected EntityTransaction  et;
 	
 	
 
@@ -78,10 +78,9 @@ public class GetRideStopsMockWhiteTest {
 		persistenceMock.close();	
     }
 	
-	
+	Driver driver;
 
 	@Test
-	//intentando saber porque da IllegalStateException (versiones o clash de clases)
 	//viaje no existe, debe devolver null, si salta excepcion o no devuelve null, falla el test
 	public void test1() {
 		try {
@@ -91,14 +90,16 @@ public class GetRideStopsMockWhiteTest {
 			String state = "pendiente";
 			Integer cd = 50;
 			
-			when(db.find(eq(Ride.class), eq(cd))).thenReturn(null); 
+			Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(null); 
 			Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
 			
 			assertNull(result);
+		
 		} catch (Exception e) {
 			fail();
 		}
 	} 
+	
 	
 	@Test
 	//aviso TypeQuery
@@ -114,17 +115,17 @@ public class GetRideStopsMockWhiteTest {
 
 		Ride ride = new Ride(from, to, null, date, 4, 10, driver);
 
-		when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
+		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
 
 		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
-		when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
-		when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
-		when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
+		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
 
 		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
 
-		assertNotNull("El resultado no debería ser null", result);
-		assertEquals("El ride retornado debe ser el esperado", ride, result);
+		assertNotNull(result);
+		assertEquals(ride, result);
 
 		verify(db, times(1)).find(eq(Ride.class), eq(cd));
 		verify(db, times(1)).createQuery(anyString(), eq(Ride.class));
@@ -149,26 +150,25 @@ public class GetRideStopsMockWhiteTest {
 
 		Ride ride = new Ride(from, to, paradas, date, 4, 10, driver);
 
-		when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
+		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
 		
 		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
-        when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
-        when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
-        when(mockTypedQuery.setParameter(anyString(), any())).thenReturn(mockTypedQuery);
+		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
+        Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
+        Mockito.when(mockTypedQuery.setParameter(anyString(), any())).thenReturn(mockTypedQuery);
         
-        when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
+        Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
         
 		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
 
-		assertNotNull("El resultado no debería ser null", result);
-		assertEquals("El ride retornado debe ser el esperado", ride, result);
+		assertNotNull(result);
+		assertEquals(ride, result);
 
 		verify(db, times(1)).find(eq(Ride.class), eq(cd));
 		verify(db, times(1)).createQuery(anyString(), eq(Ride.class));
 		verify(mockTypedQuery, times(4)).setParameter(anyInt(), any());
 		verify(mockTypedQuery, times(2)).getResultList();
 	}
-	
 	
 	
 }
