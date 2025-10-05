@@ -35,23 +35,19 @@ public class RegisterUserBDWhiteTest {
 	//OK: no hace persist
 	//FAIL: hace persist
 	public void test1() {
+		
 		boolean existUser = false;
 		User uT = new User("uT@gmail.com", "uT", "uT", "T");
 
 		
 		try {
-
-			
 			//configure the state of the system (create object in the database)
 			testDA.open();
 			existUser = testDA.existUser(uT);
-			if (existUser = false) testDA.createUser(uT);
+			if (!existUser) testDA.createUser(uT);
 			User userOriginal = testDA.findUser(uT);
+			int countBefore = testDA.countUsersByEmail(uT.getEmail());
 			testDA.close();		
-			
-			
-			
-
 
 			//invoke System Under Test (sut)  
 			sut.open();
@@ -60,17 +56,21 @@ public class RegisterUserBDWhiteTest {
 			
 			
 
+			testDA.open();
+	        int countAfter = testDA.countUsersByEmail(uT.getEmail());
+	        testDA.close();
 	        
-	        assertEquals(userOriginal, userDevuelto);
-	        
+	        assertEquals(userOriginal.getEmail(), userDevuelto.getEmail());
+	        assertEquals(countBefore, countAfter);
 
 			
 		} finally {
 			//Remove the created objects in the database (cascade removing)   
 			testDA.open();
-			if (existUser=false) testDA.removeUser(uT);
+			if (!existUser) testDA.removeUser(uT);
 			testDA.close();
 		}
+		
 	} 
 
 

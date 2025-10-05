@@ -7,6 +7,7 @@ import java.util.Map;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 
 import configuration.ConfigXML;
 import domain.Driver;
@@ -91,6 +92,12 @@ public class TestDataAccess {
 		System.out.println(">> TestDataAccess: findUser"); 	
 		return db.find(User.class, user.getEmail());
     }
+	
+	public int countUsersByEmail(String email) {
+	    Query q = db.createQuery("SELECT COUNT(u) FROM User u WHERE u.email = :email");
+	    q.setParameter("email", email);
+	    return ((Long) q.getSingleResult()).intValue();
+	}
 		
 	public void addRide(Ride ride) {
         db.getTransaction().begin();
