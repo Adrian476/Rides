@@ -3,6 +3,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
+import static org.mockito.ArgumentMatchers.eq;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -28,64 +29,35 @@ import domain.Driver;
 import domain.Ride;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
+import testOperations.TestDataAccess;
 
 public class GetRideStopsBDWhiteTest {
-	
-	static DataAccess sut;
-	
-	protected MockedStatic <Persistence> persistenceMock;
-
-	@Mock
-	protected  EntityManagerFactory entityManagerFactory;
-	@Mock
-	protected  EntityManager db;
-	@Mock
-    protected  EntityTransaction  et;
-	
-
-	@Before
-    public  void init() {
-        MockitoAnnotations.openMocks(this);
-        persistenceMock = Mockito.mockStatic(Persistence.class);
-		persistenceMock.when(() -> Persistence.createEntityManagerFactory(Mockito.any()))
-        .thenReturn(entityManagerFactory);
-        
-        Mockito.doReturn(db).when(entityManagerFactory).createEntityManager();
-		Mockito.doReturn(et).when(db).getTransaction();
-	    sut=new DataAccess(db);
 
 
-		
-    }
-	@After
-    public  void tearDown() {
-		persistenceMock.close();	
-    }
-	
-	
+	static DataAccess sut=new DataAccess();
+
+	static TestDataAccess testDA=new TestDataAccess();
+
+
 	Driver driver;
 
+
+
+
 	@Test
-	 
+	//viaje no existe, debe devolver null, si no es asi o salta excepcion, falla el test
 	public void test1() {
 		
+		String from = "A";
+		String to = "B";
+		Date date = new Date();
+		String state = "pendiente";
+		Integer cd = 50;
+
+		sut.open();
+		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		sut.close();
 		
-		try {
-			//configure the state through mocks 
-	        	
-			
-			
-			//invoke System Under Test (sut)  
-			sut.open();
-			
-			sut.close();
-			assertTrue(true);
-			
-			
-		} catch (Exception e) {
-			 //verify the results
-				sut.close();
-				fail();
-		}
+		assertNull(result);
 	} 
 }

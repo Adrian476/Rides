@@ -92,25 +92,25 @@ public class TestDataAccess {
 		return db.find(User.class, user.getEmail());
     }
 		
-/*
-	public Ride removeRide(String email, String from, String to, Date date ) {
-		System.out.println(">> TestDataAccess: removeRide");
-		Driver d = db.find(Driver.class, email);
-		if (d!=null) {
-			db.getTransaction().begin();
-			Ride r= d.removeRide(from, to, date);
-			db.getTransaction().commit();
-			return r;
-
-		} else 
-			return null;
-
+	public void addRide(Ride ride) {
+        db.getTransaction().begin();
+        db.persist(ride);
+        db.getTransaction().commit();
+    }
+	
+	public void removeRide(Ride ride) {
+		db.getTransaction().begin();
+		Ride r = db.find(Ride.class, ride.getRideNumber());
+        if (r != null) {
+            db.remove(r);
+        }
+        db.getTransaction().commit();
 	}
 
 
 
 
 
-*/
+
 
 }
