@@ -55,6 +55,25 @@ public class TestDataAccess {
 		db.close();
 		System.out.println("TestDataAccess closed");
 	}
+	
+	public boolean existUser(User user) {
+		 return  db.find(User.class, user.getEmail())!=null;
+		 
+
+	}
+	
+	public void createUser(User user) {
+		System.out.println(">> TestDataAccess: createUser");
+			db.getTransaction().begin();
+			try {
+				db.persist(user);
+				db.getTransaction().commit();
+			}
+			catch (Exception e){
+				e.printStackTrace();
+			}
+			
+    }
 
 	public boolean removeUser(User user) {
 		System.out.println(">> TestDataAccess: removeUser");
@@ -66,6 +85,11 @@ public class TestDataAccess {
 			return true;
 		} else 
 		return false;
+    }
+	
+	public User findUser(User user) {
+		System.out.println(">> TestDataAccess: findUser"); 	
+		return db.find(User.class, user.getEmail());
     }
 		
 /*
