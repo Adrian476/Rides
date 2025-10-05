@@ -73,7 +73,6 @@ public class RegisterUserMockWhiteTest {
 	public void test1() {
 		
 		User uT = new User("uT@gmail.com", "uT", "uT", "T");
-		uT.getTraveler().setEmail("uT@gmail.com");
 		//configure the state through mocks 
 		Mockito.when(db.find(User.class, uT.getEmail())).thenReturn(uT);	
 
@@ -94,7 +93,6 @@ public class RegisterUserMockWhiteTest {
 	public void test2() {
 		
 		User uT = new User("uT@gmail.com", "uT", "uT", "T");
-		uT.getTraveler().setEmail("uT@gmail.com");
 		//configure the state through mocks 
 		Mockito.when(db.find(User.class, uT.getEmail())).thenReturn(null);	
 		
@@ -125,7 +123,6 @@ public class RegisterUserMockWhiteTest {
 	public void test2PERSIST() {
 		
 		User uT = new User("uT@gmail.com", "uT", "uT", "T");
-		uT.getTraveler().setEmail("uT@gmail.com");
 		//configure the state through mocks 
 		Mockito.when(db.find(User.class, uT.getEmail())).thenReturn(null);	
 		
@@ -147,7 +144,6 @@ public class RegisterUserMockWhiteTest {
 	public void test3() {
 		
 		User uD = new User("uD@gmail.com", "uD", "uD", "D");
-		uD.getDriver().setEmail("uD@gmail.com");
 	
 		//configure the state through mocks 
 		Mockito.when(db.find(User.class, uD.getEmail())).thenReturn(null);	
