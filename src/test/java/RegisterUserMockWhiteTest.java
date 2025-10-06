@@ -78,7 +78,9 @@ public class RegisterUserMockWhiteTest {
 		sut.open();
 		User u = sut.registerUser(uT);
 		sut.close();
+		
 		Mockito.verify(db, Mockito.times(0)).persist(uT);
+		assertEquals(uT,u);
 
 
 
@@ -96,20 +98,12 @@ public class RegisterUserMockWhiteTest {
 		
 		//invoke System Under Test (sut)  
 		sut.open();
-		sut.registerUser(uT);
+		User u = sut.registerUser(uT);
 		sut.close();
 		
 		
-		//define Argument captors
-		ArgumentCaptor<User> userCaptor =
-				ArgumentCaptor.forClass(User.class);
-		//verify call numbers and capture parameters
-		Mockito.verify(db,Mockito.times(1)).persist(userCaptor.capture());
-		//verify parameter values as usual using JUnit asserts
-		assertEquals(uT.getEmail(),(userCaptor.getValue().getEmail()));
-		assertEquals(uT.getPassword(),(userCaptor.getValue().getPassword()));
-		assertEquals(null,(userCaptor.getValue().getDriver()));
-		assertEquals(uT.getTraveler(),(userCaptor.getValue().getTraveler()));
+		Mockito.verify(db, Mockito.times(1)).persist(uT);
+		assertEquals(uT,u);
 	
 	}
 	
@@ -148,19 +142,11 @@ public class RegisterUserMockWhiteTest {
 		
 		//invoke System Under Test (sut)  
 		sut.open();
-		sut.registerUser(uD);
+		User u = sut.registerUser(uD);
 		sut.close();
 		
-		//define Argument captors
-		ArgumentCaptor<User> userCaptor =
-				ArgumentCaptor.forClass(User.class);
-		//verify call numbers and capture parameters
-		Mockito.verify(db,Mockito.times(1)).persist(userCaptor.capture());
-		//verify parameter values as usual using JUnit asserts
-		assertEquals(uD.getEmail(),(userCaptor.getValue().getEmail()));
-		assertEquals(uD.getPassword(),(userCaptor.getValue().getPassword()));
-		assertEquals(uD.getDriver(),(userCaptor.getValue().getDriver()));
-		assertEquals(null,(userCaptor.getValue().getTraveler()));
+		Mockito.verify(db, Mockito.times(1)).persist(uD);
+		assertEquals(uD,u);
 
 		
 	}
@@ -179,19 +165,11 @@ public class RegisterUserMockWhiteTest {
 		
 		//invoke System Under Test (sut)  
 		sut.open();
-		sut.registerUser(u);
+		User userDevuelto = sut.registerUser(u);
 		sut.close();
 		
-		//define Argument captors
-		ArgumentCaptor<User> userCaptor =
-				ArgumentCaptor.forClass(User.class);
-		//verify call numbers and capture parameters
-		Mockito.verify(db,Mockito.times(1)).persist(userCaptor.capture());
-		//verify parameter values as usual using JUnit asserts
-		assertEquals(u.getEmail(),(userCaptor.getValue().getEmail()));
-		assertEquals(u.getPassword(),(userCaptor.getValue().getPassword()));
-		assertEquals(null,(userCaptor.getValue().getDriver()));
-		assertEquals(null,(userCaptor.getValue().getTraveler()));
+		Mockito.verify(db, Mockito.times(1)).persist(u);
+		assertEquals(userDevuelto,u);
 
 		
 	}
