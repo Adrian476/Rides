@@ -26,9 +26,6 @@ import org.mockito.MockitoAnnotations;
 import dataAccess.DataAccess;
 import domain.User;
 import domain.Driver;
-import domain.Ride;
-import exceptions.RideAlreadyExistException;
-import exceptions.RideMustBeLaterThanTodayException;
 
 public class RegisterUserMockWhiteTest {
 	
