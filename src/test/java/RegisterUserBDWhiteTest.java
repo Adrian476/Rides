@@ -169,8 +169,7 @@ public class RegisterUserBDWhiteTest {
 	        
 	        assertNotNull(userDevuelto);
 	        assertNotNull(userPersistido);
-	        assertEquals(uD.getEmail(), userDevuelto.getEmail());
-	        
+	        assertEquals(uD.getEmail(), userDevuelto.getEmail());	   
 	        assertEquals(countBefore0 + 1, countAfter1);
 
 			
@@ -178,6 +177,60 @@ public class RegisterUserBDWhiteTest {
 			//Remove the created objects in the database (cascade removing)   
 			testDA.open();
 			if (!existUser) testDA.removeUser(uD);
+			testDA.close();
+		}
+		
+	}
+	
+	@Test
+	//sut.registerUser: The User(“u@gmail.com”, “u”, “u”, "" ) IS NOT on the DB. 
+	// OK: persist con parametros “u@gmail.com”, “u”, “u”, “”
+	// FAIL: no hace persist o devuelve valores nulos?
+	public void test4() {
+		
+		boolean existUser = false;
+		User u = new User("u@gmail.com", "u", "u", "");
+
+		
+		try {
+			//configure the state of the system (create object in the database)
+			testDA.open();
+			existUser = testDA.existUser(u);
+			if (existUser) testDA.removeUser(u);
+			//no debería existir, tiene que ser null
+			User userAntesNULL = testDA.findUser(u);
+			//DEBERÍA SER CERO
+			int countBefore0 = testDA.countUsersByEmail(u.getEmail());
+			testDA.close();		
+			
+			assertNull(userAntesNULL);
+			assertEquals(0, countBefore0);
+			
+			
+			//invoke System Under Test (sut)  
+			sut.open();
+			User userDevuelto = sut.registerUser(u);
+			sut.close();
+			
+			
+
+			testDA.open();
+			//DEBERÍA SER 1
+	        int countAfter1 = testDA.countUsersByEmail(u.getEmail());
+	        User userPersistido = testDA.findUser(u);
+	        testDA.close();
+	        
+	        
+	        assertNotNull(userDevuelto);
+	        assertNotNull(userPersistido);
+	        assertEquals(u.getEmail(), userDevuelto.getEmail());	   
+	        assertEquals(countBefore0 + 1, countAfter1);
+
+			
+		} finally {
+			//Remove the created objects in the database (cascade removing)   
+			testDA.open();
+			if (!existUser) testDA.removeUser(u);
 			testDA.close();
 		}
 		
