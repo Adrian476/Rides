@@ -114,7 +114,20 @@ public class TestDataAccess {
         db.getTransaction().commit();
 	}
 
+	public void addDriver(Driver driver) {
+	    db.getTransaction().begin();
+	    db.persist(driver);
+	    db.getTransaction().commit();
+	}
 
+	public void removeDriver(Driver driver) {
+	    db.getTransaction().begin();
+	    Driver d = db.find(Driver.class, driver);
+	    if (d != null) { 
+	    	db.remove(d);
+	    }
+	    db.getTransaction().commit();
+	}
 
 
 

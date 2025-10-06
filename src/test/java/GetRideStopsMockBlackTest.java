@@ -80,7 +80,7 @@ public class GetRideStopsMockBlackTest {
 	
 	@Test
 	public void test1() {
-		try {
+		
 		String from = null;
 		String to = "B";
 		Date date = new Date();
@@ -93,20 +93,21 @@ public class GetRideStopsMockBlackTest {
 
 		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
 		
+		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
+		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
+		
 		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
 		
-		fail();
-
-		} catch (Exception e) {
-			assertTrue(true);
-		}
+		assertNull(rides);
 	}
 	
 	
 	
 	@Test
 	public void test2() {
-		try {
+		
 		String from = "A";
 		String to = null;
 		Date date = new Date();
@@ -119,18 +120,19 @@ public class GetRideStopsMockBlackTest {
 
 		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
 
-		sut.getRideStopsByCod(from, to, date, state, cd);
-
-		fail();
+		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
+		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
 		
-		} catch (Exception e) {
-			assertTrue(true);
-		}
+		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
+		
+		assertNull(rides);
 	}
 	
 	@Test
 	public void test3() {
-		try {
+		
 		String from = "A";
 		String to = "B";
 		Date date = null;
@@ -143,17 +145,20 @@ public class GetRideStopsMockBlackTest {
 
 		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
 
-		sut.getRideStopsByCod(from, to, date, state, cd);
-
-		} catch (Exception e) {
-			assertTrue(true);
-		}
+		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
+		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
+		
+		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
+		
+		assertNull(rides);
 	}
 	
 	
 	@Test
 	public void test4() {
-		try {
+		
 		String from = "A";
 		String to = "B";
 		Date date = new Date();
@@ -166,12 +171,14 @@ public class GetRideStopsMockBlackTest {
 
 		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(ride);
 
-		sut.getRideStopsByCod(from, to, date, state, cd);
-
-		fail();
-		} catch (Exception e) {
-			assertTrue(true);
-		}
+		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
+		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
+		
+		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
+		
+		assertNull(rides);
 	}
 	
 	
@@ -179,23 +186,20 @@ public class GetRideStopsMockBlackTest {
 	@Test
 	//viaje no existe, debe devolver null, si salta excepcion o no devuelve null, falla el test
 	public void test5() {
-		try {
-			String from = "A";
-			String to = "B";
-			Date date = new Date();
-			String state = "pendiente";
-			Integer cd = 50;
-			
-			Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(null); 
-			Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
-			
-			assertNull(result);
-		
-		} catch (Exception e) {
-			fail();
-		}
+
+		String from = "A";
+		String to = "B";
+		Date date = new Date();
+		String state = "pendiente";
+		Integer cd = 50;
+
+		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(null); 
+		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+
+		assertNull(result);
+
 	} 
-	
+
 	
 	@Test
 	//viaje exite, paradas no, debe devolver una lista vacia, si salta excepcion o no devuelve null, falla el test

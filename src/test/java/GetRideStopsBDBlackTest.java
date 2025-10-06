@@ -6,6 +6,7 @@ import static org.junit.Assert.fail;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 import javax.persistence.EntityManager;
@@ -38,27 +39,212 @@ public class GetRideStopsBDBlackTest {
 	static TestDataAccess testDA=new TestDataAccess();
 
 
-	Driver driver;
-
-
 
 
 	@Test
 	public void test1() {
 
+		String from = null;
+		String to = "B";
+		Date date = new Date();
+		String state = "pendiente";
+		Driver driver = new Driver();
+		Ride ride = new Ride(from, to, null, date, 4, 10, driver);
 
 		try {
+			testDA.open();
+			testDA.addDriver(driver);
+			testDA.addRide(ride);
 
 			sut.open();
-
+			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
 			sut.close();
-			assertTrue(true);
 
+			assertNull(result);
 
-		} catch (Exception e) {
-			//verify the results
+		} finally {
+			testDA.removeRide(ride);
+			testDA.removeDriver(driver);
+			testDA.close();
+		}
+	}
+
+	@Test
+	public void test2() {
+
+		String from = "A";
+		String to = null;
+		Date date = new Date();
+		String state = "pendiente";
+		Driver driver = new Driver();
+		Ride ride = new Ride(from, to, null, date, 4, 10, driver);
+
+		try {
+			testDA.open();
+			testDA.addDriver(driver);
+			testDA.addRide(ride);
+
+			sut.open();
+			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
 			sut.close();
-			fail();
+
+			assertNull(result);
+
+		} finally {
+			testDA.removeRide(ride);
+			testDA.removeDriver(driver);
+			testDA.close();
+		}
+	}
+
+	@Test
+	public void test3() {
+
+		String from = "A";
+		String to = "B";
+		Date date = null;
+		String state = "pendiente";
+		Driver driver = new Driver();
+		Ride ride = new Ride(from, to, null, date, 4, 10, driver);
+
+		try {
+			testDA.open();
+			testDA.addDriver(driver);
+			testDA.addRide(ride);
+
+			sut.open();
+			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			sut.close();
+
+			assertNull(result);
+
+		} finally {
+			testDA.removeRide(ride);
+			testDA.removeDriver(driver);
+			testDA.close();
+		}
+	}
+
+	@Test
+	public void test4() {
+
+		String from = "A";
+		String to = "B";
+		Date date = new Date();
+		String state = null;
+		Driver driver = new Driver();
+		Ride ride = new Ride(from, to, null, date, 4, 10, driver);
+
+		try {
+			testDA.open();
+			testDA.addDriver(driver);
+			testDA.addRide(ride);
+
+			sut.open();
+			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			sut.close();
+
+			assertNull(result);
+
+		} finally {
+			testDA.removeRide(ride);
+			testDA.removeDriver(driver);
+			testDA.close();
+		}
+	}
+
+
+
+
+	@Test
+	//viaje no existe, debe devolver null, si no es asi o salta excepcion, falla el test
+	public void test5() {
+
+		String from = "A";
+		String to = "B";
+		Date date = new Date();
+		String state = "pendiente";
+		Integer cd = 50;
+
+		sut.open();
+		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		sut.close();
+
+		assertNull(result);
+	} 
+
+	@Test
+	public void test6() {
+
+		String from = "A";
+		String to = "B";
+		Date date = new Date();
+		String state = "pendiente";
+		Driver driver = new Driver();
+		Ride ride = new Ride(from, to, null, date, 4, 10, driver);
+
+		try {
+			testDA.open();
+			testDA.addDriver(driver);
+			testDA.addRide(ride);
+
+
+			sut.open();
+			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			sut.close();
+
+			assertNotNull(result);
+			assertEquals(ride.getRideNumber(), result.getRideNumber());
+			assertEquals(ride.getFrom(), result.getFrom());
+			assertEquals(ride.getTo(), result.getTo());
+			assertEquals(ride.getStops(), result.getStops());
+			assertEquals(ride.getPrice(), result.getPrice(), 0.01f);
+
+		} finally {
+			testDA.removeRide(ride);
+			testDA.removeDriver(driver);
+			testDA.close();
+		}
+	} 
+
+
+
+
+	@Test
+	public void test7() {
+
+
+		String from = "A";
+		String to = "B";
+		Date date = new Date();
+		String state = "pendiente";
+		ArrayList<String> paradas = new ArrayList<String>();
+		paradas.add("C");
+		paradas.add("D");
+		Driver driver = new Driver();
+		Ride ride = new Ride(from, to, paradas, date, 4, 10, driver);
+
+		try {
+			testDA.open();
+			testDA.addDriver(driver);
+			testDA.addRide(ride);
+
+
+			sut.open();
+			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			sut.close();
+
+			assertNotNull(result);
+			assertEquals(ride.getRideNumber(), result.getRideNumber());
+			assertEquals(ride.getFrom(), result.getFrom());
+			assertEquals(ride.getTo(), result.getTo());
+			assertEquals(ride.getStops(), result.getStops());
+			assertEquals(ride.getPrice(), result.getPrice(), 0.01f);
+
+		} finally {
+			testDA.removeRide(ride);
+			testDA.removeDriver(driver);
+			testDA.close();
 		}
 	} 
 }
