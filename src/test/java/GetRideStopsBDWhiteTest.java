@@ -64,6 +64,7 @@ public class GetRideStopsBDWhiteTest {
 	} 
 
 	@Test
+	//viaje exite, paradas no, debe devolver el viaje, si salta excepcion o devuelve null, falla el test
 	public void test2() {
 
 		String from = "A";
@@ -101,6 +102,7 @@ public class GetRideStopsBDWhiteTest {
 
 
 	@Test
+	//viaje con paradas, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test3() {
 
 

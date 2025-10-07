@@ -42,6 +42,7 @@ public class GetRideStopsBDBlackTest {
 
 
 	@Test
+	//viaje con parametro null, debe devolver null, si no devuelve null o salta excepcion, falla el test
 	public void test1() {
 
 		String from = null;
@@ -70,6 +71,7 @@ public class GetRideStopsBDBlackTest {
 	}
 
 	@Test
+	//viaje con parametro null, debe devolver null, si no devuelve null o salta excepcion, falla el test
 	public void test2() {
 
 		String from = "A";
@@ -98,6 +100,7 @@ public class GetRideStopsBDBlackTest {
 	}
 
 	@Test
+	//viaje con parametro null, debe devolver null, si no devuelve null o salta excepcion, falla el test
 	public void test3() {
 
 		String from = "A";
@@ -126,6 +129,7 @@ public class GetRideStopsBDBlackTest {
 	}
 
 	@Test
+	//viaje con parametro null, debe devolver null, si no devuelve null o salta excepcion, falla el test
 	public void test4() {
 
 		String from = "A";
@@ -174,6 +178,7 @@ public class GetRideStopsBDBlackTest {
 	} 
 
 	@Test
+	//viaje exite, paradas no, debe devolver el viaje, si salta excepcion o devuelve null, falla el test
 	public void test6() {
 
 		String from = "A";
@@ -211,6 +216,7 @@ public class GetRideStopsBDBlackTest {
 
 
 	@Test
+	//viaje con paradas, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test7() {
 
 

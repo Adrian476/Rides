@@ -83,7 +83,7 @@ public class GetRideStopsMockWhiteTest {
 	@Test
 	//viaje no existe, debe devolver null, si salta excepcion o no devuelve null, falla el test
 	public void test1() {
-		try {
+
 			String from = "A";
 			String to = "B";
 			Date date = new Date();
@@ -95,15 +95,11 @@ public class GetRideStopsMockWhiteTest {
 			
 			assertNull(result);
 		
-		} catch (Exception e) {
-			fail();
-		}
 	} 
 	
 	
 	@Test
-	//aviso TypeQuery
-	//viaje exite, paradas no, debe devolver una lista vacia, si salta excepcion o no devuelve null, falla el test
+	//viaje exite, paradas no, debe devolver el viaje, si salta excepcion o devuelve null, falla el test
 	public void test2() {
 		String from = "A";
 		String to = "B";
@@ -134,8 +130,7 @@ public class GetRideStopsMockWhiteTest {
 	}
 
 	@Test
-	//aviso TypeQuery
-	//viaje con paradas, no debe devolver null, si devuelve null o salta excepcion, falla el test
+	//viaje con paradas, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test3() {
 		String from = "A";
 		String to = "B";

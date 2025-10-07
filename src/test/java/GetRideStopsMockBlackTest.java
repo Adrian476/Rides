@@ -79,6 +79,7 @@ public class GetRideStopsMockBlackTest {
 	
 	
 	@Test
+	//viaje con parametro null, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test1() {
 		
 		String from = null;
@@ -96,16 +97,18 @@ public class GetRideStopsMockBlackTest {
 		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
 		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
-		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
-		
-		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
-		
-		assertNull(rides);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
+
+		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+
+		assertNotNull(result);
+		assertEquals(ride, result);
 	}
 	
 	
 	
 	@Test
+	//viaje con parametro null, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test2() {
 		
 		String from = "A";
@@ -123,14 +126,16 @@ public class GetRideStopsMockBlackTest {
 		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
 		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
-		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
-		
-		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
-		
-		assertNull(rides);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
+
+		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+
+		assertNotNull(result);
+		assertEquals(ride, result);
 	}
 	
 	@Test
+	//viaje con parametro null, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test3() {
 		
 		String from = "A";
@@ -148,15 +153,17 @@ public class GetRideStopsMockBlackTest {
 		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
 		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
-		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
-		
-		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
-		
-		assertNull(rides);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
+
+		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+
+		assertNotNull(result);
+		assertEquals(ride, result);
 	}
 	
 	
 	@Test
+	//viaje con parametro null, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test4() {
 		
 		String from = "A";
@@ -174,11 +181,12 @@ public class GetRideStopsMockBlackTest {
 		TypedQuery<Ride> mockTypedQuery = mock(TypedQuery.class);
 		Mockito.when(db.createQuery(anyString(), eq(Ride.class))).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
-		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
-		
-		Ride rides = sut.getRideStopsByCod(from, to, date, state, cd);
-		
-		assertNull(rides);
+		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
+
+		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+
+		assertNotNull(result);
+		assertEquals(ride, result);
 	}
 	
 	
@@ -202,7 +210,7 @@ public class GetRideStopsMockBlackTest {
 
 	
 	@Test
-	//viaje exite, paradas no, debe devolver una lista vacia, si salta excepcion o no devuelve null, falla el test
+	//viaje exite, paradas no, debe devolver el viaje, si salta excepcion o devuelve null, falla el test
 	public void test6() {
 		String from = "A";
 		String to = "B";
@@ -233,7 +241,7 @@ public class GetRideStopsMockBlackTest {
 	}
 
 	@Test
-	//viaje con paradas, no debe devolver null, si devuelve null o salta excepcion, falla el test
+	//viaje con paradas, debe devolver el viaje, si devuelve null o salta excepcion, falla el test
 	public void test7() {
 		String from = "A";
 		String to = "B";
