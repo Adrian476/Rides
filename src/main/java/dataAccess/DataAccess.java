@@ -443,7 +443,7 @@ public class DataAccess  {
 		if (user != null && !user.getPassword().equals(passw)){
 				user.setPassword(null);
 		}
-		if(user != null && user.getPassword().equals(passw) ) {
+		if(user != null) {
 			if(user.getDriver() != null) {
 				System.out.println(user.getDriver().getCreatedRides());
 				System.out.println(user.getDriver().getBookedRides());
