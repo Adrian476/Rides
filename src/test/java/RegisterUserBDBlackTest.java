@@ -182,13 +182,68 @@ public class RegisterUserBDBlackTest {
 		 }
 
 	 }
+	 @Test
+	//sut.registerUser: The User(“u@gmail.com”, “u”, “u”, "" ) IS NOT on the DB. 
+	// OK: persist con parametros “u@gmail.com”, “u”, “u”, “”
+	// FAIL: no hace persist o devuelve valores nulos?
+	 public void test4() {
+
+		 boolean existUser = false;
+		 User u = new User("u@gmail.com", "u", "u", "");
+
+
+		 try {
+			 //configure the state of the system (create object in the database)
+			 testDA.open();
+			 existUser = testDA.existUser(u);
+			 if (existUser) testDA.removeUser(u);
+			 //no debería existir, tiene que ser null
+			 User userAntesNULL = testDA.findUser(u);
+			 //DEBERÍA SER CERO
+			 int countBefore0 = testDA.countUsersByEmail(u.getEmail());
+			 testDA.close();		
+
+			 assertNull(userAntesNULL);
+			 assertEquals(0, countBefore0);
+
+
+			 //invoke System Under Test (sut)  
+			 sut.open();
+			 User userDevuelto = sut.registerUser(u);
+			 sut.close();
+
+
+
+			 testDA.open();
+			 //DEBERÍA SER 1
+			 int countAfter1 = testDA.countUsersByEmail(u.getEmail());
+			 User userPersistido = testDA.findUser(u);
+			 testDA.close();
+
+			 assertEquals(countBefore0 + 1, countAfter1);
+			 assertNotNull(userPersistido);
+			 assertEquals(u.getEmail(), userPersistido.getEmail());
+			 assertNotNull(userDevuelto);
+			 assertEquals(u.getEmail(), userDevuelto.getEmail());
+
+			 
+
+
+		 } finally {
+			 //Remove the created objects in the database (cascade removing)   
+			 testDA.open();
+			 if (!existUser) testDA.removeUser(u);
+			 testDA.close();
+		 }
+
+	 }
 	 
 	 @Test
 	 //sut.registerUser: User null. 
 	 // OK: lanza excepción
 	 // FAIL: ejecuta el método
 
-	 public void test4() {
+	 public void test5() {
 		 try {
 			 //invoke System Under Test (sut)  
 			 sut.open();

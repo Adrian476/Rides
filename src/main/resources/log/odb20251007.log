@@ -210,3 +210,268 @@ New type java.util.ArrayList<domain.DiscountInfo>
 [2025-10-07 16:51:01 #17 type.registry] 
 New type java.util.Vector<domain.Ride>
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-07 18:24:07 #1 store] 
+Database 'C:\Users\Shirley\OneDrive\UPV\5 curso\IS2\proyecto\adrian\enEclipse\Rides\src\main\resources\rides.temp' is opened by 5768@LAPTOP-9IP7ANLF
+
+[2025-10-07 18:24:07 #2 type.registry] 
+New type domain.Ride
+
+[2025-10-07 18:24:07 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-07 18:24:07 #4 type.registry] 
+New type domain.Traveler
+
+[2025-10-07 18:24:07 #5 type.registry] 
+New type domain.Driver
+
+[2025-10-07 18:24:07 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-10-07 18:24:07 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-10-07 18:24:07 #8 type.registry] 
+New type domain.User
+
+[2025-10-07 18:24:07 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-07 18:24:07 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-10-07 18:24:07 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-10-07 18:24:07 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-10-07 18:24:07 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-10-07 18:24:07 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-10-07 18:24:07 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-10-07 18:24:07 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-10-07 18:24:07 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-07 18:24:33 #1 store] 
+Database 'C:\Users\Shirley\OneDrive\UPV\5 curso\IS2\proyecto\adrian\enEclipse\Rides\src\main\resources\rides.temp' is opened by 16616@LAPTOP-9IP7ANLF
+
+[2025-10-07 18:24:33 #2 type.registry] 
+New type domain.Ride
+
+[2025-10-07 18:24:33 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-07 18:24:33 #4 type.registry] 
+New type domain.Traveler
+
+[2025-10-07 18:24:34 #5 type.registry] 
+New type domain.Driver
+
+[2025-10-07 18:24:34 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-10-07 18:24:34 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-10-07 18:24:34 #8 type.registry] 
+New type domain.User
+
+[2025-10-07 18:24:34 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-07 18:24:34 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-10-07 18:24:34 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-10-07 18:24:34 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-10-07 18:24:34 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-10-07 18:24:34 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-10-07 18:24:34 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-10-07 18:24:34 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-10-07 18:24:34 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-07 18:28:12 #1 store] 
+Database 'C:\Users\Shirley\OneDrive\UPV\5 curso\IS2\proyecto\adrian\enEclipse\Rides\src\main\resources\rides.temp' is opened by 4752@LAPTOP-9IP7ANLF
+
+[2025-10-07 18:28:12 #2 type.registry] 
+New type domain.Ride
+
+[2025-10-07 18:28:12 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-07 18:28:12 #4 type.registry] 
+New type domain.Traveler
+
+[2025-10-07 18:28:12 #5 type.registry] 
+New type domain.Driver
+
+[2025-10-07 18:28:12 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-10-07 18:28:12 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-10-07 18:28:12 #8 type.registry] 
+New type domain.User
+
+[2025-10-07 18:28:12 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-07 18:28:12 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-10-07 18:28:12 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-10-07 18:28:12 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-10-07 18:28:12 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-10-07 18:28:12 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-10-07 18:28:12 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-10-07 18:28:12 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-10-07 18:28:12 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-07 18:30:23 #1 store] 
+Database 'C:\Users\Shirley\OneDrive\UPV\5 curso\IS2\proyecto\adrian\enEclipse\Rides\src\main\resources\rides.temp' is opened by 17156@LAPTOP-9IP7ANLF
+
+[2025-10-07 18:30:23 #2 type.registry] 
+New type domain.Ride
+
+[2025-10-07 18:30:23 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-07 18:30:23 #4 type.registry] 
+New type domain.Traveler
+
+[2025-10-07 18:30:23 #5 type.registry] 
+New type domain.Driver
+
+[2025-10-07 18:30:23 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-10-07 18:30:23 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-10-07 18:30:23 #8 type.registry] 
+New type domain.User
+
+[2025-10-07 18:30:23 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-07 18:30:23 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-10-07 18:30:23 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-10-07 18:30:23 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-10-07 18:30:23 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-10-07 18:30:23 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-10-07 18:30:23 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-10-07 18:30:23 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-10-07 18:30:23 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-07 18:30:31 #1 store] 
+Database 'C:\Users\Shirley\OneDrive\UPV\5 curso\IS2\proyecto\adrian\enEclipse\Rides\src\main\resources\rides.temp' is opened by 3216@LAPTOP-9IP7ANLF
+
+[2025-10-07 18:30:32 #2 type.registry] 
+New type domain.Ride
+
+[2025-10-07 18:30:32 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-07 18:30:32 #4 type.registry] 
+New type domain.Traveler
+
+[2025-10-07 18:30:32 #5 type.registry] 
+New type domain.Driver
+
+[2025-10-07 18:30:32 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-10-07 18:30:32 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-10-07 18:30:32 #8 type.registry] 
+New type domain.User
+
+[2025-10-07 18:30:32 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-07 18:30:32 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-10-07 18:30:32 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-10-07 18:30:32 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-10-07 18:30:32 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-10-07 18:30:32 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-10-07 18:30:32 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-10-07 18:30:32 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-10-07 18:30:32 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+

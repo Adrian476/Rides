@@ -109,7 +109,26 @@ public class RegisterUserMockBlackTest {
 	// FAIL: no hace persist o devuelve valores nulos
 	public void test3() {
 		
-		User userNuevo = new User("uT@gmail.com", "uT", "uT", "T");
+		User userNuevo = new User("uD@gmail.com", "uD", "uD", "D");
+		//configure the state through mocks 
+		Mockito.when(db.find(User.class, userNuevo.getEmail())).thenReturn(null);	
+
+		//invoke System Under Test (sut)  
+		sut.open();
+		User userDevuelto = sut.registerUser(userNuevo);
+		sut.close();
+		
+		Mockito.verify(db, Mockito.times(1)).persist(userNuevo);
+		assertEquals(userNuevo,userDevuelto);
+	}
+	
+	@Test
+	//sut.registerUser: The User(“u@gmail.com”, “u”, “u”, "" ) IS NOT on the DB. 
+	// OK: persist con parametros “u@gmail.com”, “u”, “u”, “”
+	// FAIL: no hace persist o devuelve valores nulos?
+	public void test4() {
+		
+		User userNuevo = new User("u@gmail.com", "u", "u", "");
 		//configure the state through mocks 
 		Mockito.when(db.find(User.class, userNuevo.getEmail())).thenReturn(null);	
 
@@ -127,7 +146,7 @@ public class RegisterUserMockBlackTest {
 	// OK: lanza excepción
 	// FAIL: ejecuta el método
 	
-	public void test4() {
+	public void test5() {
 		try {
 			//invoke System Under Test (sut)  
 			sut.open();
