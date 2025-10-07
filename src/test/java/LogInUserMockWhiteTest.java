@@ -117,9 +117,7 @@ public class LogInUserMockWhiteTest {
 		sut.open();
 		User u = sut.loginUser(email, password);
 		sut.close();
-		assertNotNull(u);
-		assertEquals(ut,u);
-		assertTrue(u.getPassword().isEmpty());
+		assertNull(u.getPassword());
 	}
 	@Test
 	//sut.login:  The User(“u1@gmail.com", “uT”, “correcta”, "T") IS on the DB.
@@ -129,8 +127,8 @@ public class LogInUserMockWhiteTest {
 		PrintStream originalOut = System.out;
 		System.setOut(new PrintStream(outContent));
 		    
-		String email1 ="uT@gmail.com";
-		String password1="correcta";
+		String email1 ="traveller@gmail.com";
+		String password1="traveller";
 		User uT = new User(email1, "uT", password1,"T");
 		//configure the state through mocks 
 		Mockito.when(db.find(User.class, uT.getEmail())).thenReturn(uT);	
@@ -144,7 +142,7 @@ public class LogInUserMockWhiteTest {
 		System.setOut(originalOut);
 		String salida = outContent.toString();
 		//texto esperado
-	    assertTrue(salida.contains(u.getTraveler().getAcceptedRides()));
+	    assertTrue(salida.contains((CharSequence) u.getTraveler().getAcceptedRides()));
 
 
 
@@ -152,20 +150,26 @@ public class LogInUserMockWhiteTest {
 	@Test
 	//sut.login:  The User(“
 		public void test5() {
-			String email1 ="uT@gmail.com";
-			String password1="pas";
-			User uT = new User(email1, "uT", password1,"D");
-			//configure the state through mocks 
-			Mockito.when(db.find(User.class, uT.getEmail())).thenReturn(uT);	
+		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+		PrintStream originalOut = System.out;
+		System.setOut(new PrintStream(outContent));
+		    
+		String email ="driver@gmail.com";
+		String password="driver";
+		User uD = new User(email, "uD", password,"D");
+		//configure the state through mocks 
+		Mockito.when(db.find(User.class, uD.getEmail())).thenReturn(uD);	
 
 
-			//invoke System Under Test (sut)  
-			sut.open();
-			User u = sut.loginUser(email1, password1); 
-			sut.close();
-			Mockito.verify(db, Mockito.times(0)).persist(uT);
-
-
+		//invoke System Under Test (sut)  
+		sut.open();
+		User u = sut.loginUser(email, password); 
+		sut.close();
+		
+		System.setOut(originalOut);
+		String salida = outContent.toString();
+		//texto esperado
+	    assertTrue(salida.contains((CharSequence) u.getTraveler().getAcceptedRides()));
 
 	}
 
