@@ -17,12 +17,13 @@ public class LogInUserBDBlackTest {
 	 String email, password;
 	 User expected, result;
 	 
+	 /*
 	 @Before
 	 public void setUp() {
 	     sut = new DataAccess();
 	     testDA = new TestDataAccess();
 	 }
-	 
+	 */
 	 @After
 	 public void tearDown() {
 	     if (sut != null) {
