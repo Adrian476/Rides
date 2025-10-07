@@ -15,7 +15,7 @@ public class LogInUserBDWhiteTest {
 	 String email, password;
 	 User expected, result;
 	 User uT=  new User("traveler@ehu.eus", "uT", "traveler","T");
-	 User uD, u3;
+	 User uD;
 	/*
 	 
 	 @Before
@@ -84,7 +84,7 @@ public class LogInUserBDWhiteTest {
 	 @Test
 	 public void test3() {
 		//1.	expected	value
-			u3 = new User("bidaiaria@ehu.eus", "uB", "bidaiaria","T");
+		User u3 = new User("bidaiaria@ehu.eus", "uB", "bidaiaria","T");
 			testDA.open();
 			testDA.createUser(u3);
 			testDA.close();
