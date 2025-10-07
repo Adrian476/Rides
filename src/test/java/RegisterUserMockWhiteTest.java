@@ -88,7 +88,7 @@ public class RegisterUserMockWhiteTest {
 	@Test
 	//sut.registerUser: TRAVELER The UserT(“uT@gmail.com”, “uT”, “uT”, “T”) IS NOT on the DB. 
 	// OK: persist con parametros “uT@gmail.com”, “uT”, “uT”, “T”
-	// FAIL: no hace persist o hace persist con valores nulos?
+	// FAIL: no hace persist o devuelve valores nulos?
 	public void test2() {
 		
 		User uT = new User("uT@gmail.com", "uT", "uT", "T");
@@ -110,7 +110,7 @@ public class RegisterUserMockWhiteTest {
 	@Test
 	//sut.registerUser: TRAVELER The The UserT(“uT@gmail.com”, “uT”, “uT”, “T”) IS NOT on the DB. 
 	// OK: persist con parametros “uT@gmail.com”, “uT”, “uT”, “T”
-	// FAIL: no hace persist o hace persist con valores nulos?
+	// FAIL: no hace persist o devuelve valores nulos?
 	public void test2PERSIST() {
 		
 		User uT = new User("uT@gmail.com", "uT", "uT", "T");
@@ -131,7 +131,7 @@ public class RegisterUserMockWhiteTest {
 	@Test
 	//sut.registerUser: DRIVER The UserD(“uD@gmail.com”, “uD”, “uD”, “D”) IS NOT on the DB. 
 	// OK: persist con parametros “uD@gmail.com”, “uD”, “uD”, “D”
-	// FAIL: no hace persist o hace persist con valores nulos?
+	// FAIL: no hace persist o devuelve valores nulos?
 	public void test3() {
 		
 		User uD = new User("uD@gmail.com", "uD", "uD", "D");
@@ -153,7 +153,7 @@ public class RegisterUserMockWhiteTest {
 	@Test
 	//sut.registerUser: The User(“u@gmail.com”, “u”, “u”, "" ) IS NOT on the DB. 
 	// OK: persist con parametros “u@gmail.com”, “u”, “u”, “”
-	// FAIL: no hace persist o hace persist con valores nulos?
+	// FAIL: no hace persist o devuelve valores nulos?
 	public void test4() {
 		
 		User u = new User("u@gmail.com", "u", "u", "");

@@ -76,7 +76,7 @@ public class RegisterUserBDWhiteTest {
 	@Test
 	//sut.registerUser: TRAVELER The UserT(“uT@gmail.com”, “uT”, “uT”, “T”) IS NOT on the DB. 
 	// OK: persist con parametros “uT@gmail.com”, “uT”, “uT”, “T”
-	// FAIL: no hace persist o hace persist con valores nulos?
+	// FAIL: no hace persist o devuelve valores nulos
 	public void test2() {
 		
 		boolean existUser = false;
@@ -112,8 +112,9 @@ public class RegisterUserBDWhiteTest {
 	        testDA.close();
 	        
 	        
-	        assertNotNull(userDevuelto);
 	        assertNotNull(userPersistido);
+	        assertEquals(uT.getEmail(), userPersistido.getEmail());
+	        assertNotNull(userDevuelto);
 	        assertEquals(uT.getEmail(), userDevuelto.getEmail());
 	        
 	        assertEquals(countBefore0 + 1, countAfter1);
@@ -166,9 +167,10 @@ public class RegisterUserBDWhiteTest {
 	        User userPersistido = testDA.findUser(uD);
 	        testDA.close();
 	        
-	        
-	        assertNotNull(userDevuelto);
 	        assertNotNull(userPersistido);
+	        assertEquals(uD.getEmail(), userPersistido.getEmail());
+	        assertNotNull(userDevuelto);
+	        
 	        assertEquals(uD.getEmail(), userDevuelto.getEmail());	   
 	        assertEquals(countBefore0 + 1, countAfter1);
 
@@ -221,8 +223,10 @@ public class RegisterUserBDWhiteTest {
 	        testDA.close();
 	        
 	        
-	        assertNotNull(userDevuelto);
 	        assertNotNull(userPersistido);
+	        assertEquals(u.getEmail(), userPersistido.getEmail());
+	        assertNotNull(userDevuelto);
+	        
 	        assertEquals(u.getEmail(), userDevuelto.getEmail());	   
 	        assertEquals(countBefore0 + 1, countAfter1);
 

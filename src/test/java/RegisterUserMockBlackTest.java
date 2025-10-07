@@ -84,8 +84,8 @@ public class RegisterUserMockBlackTest {
 	}
 	
 	@Test
-	//sut.registerUser: User cualquiera The UserT(“uT@gmail.com”, “uT”, “uT”, “T”) IS NOT on the DB. 
-	// OK: persist con parametros “uT@gmail.com”, “uT”, “uT”, “T”(cualesquiera)
+	//sut.registerUser: The UserT(“uT@gmail.com”, “uT”, “uT”, “T”) IS NOT on the DB. 
+	// OK: persist con parametros “uT@gmail.com”, “uT”, “uT”, “T”
 	// FAIL: no hace persist o devuelve valores nulos?
 	public void test2() {
 		
@@ -104,11 +104,30 @@ public class RegisterUserMockBlackTest {
 	}
 	
 	@Test
+	//sut.registerUser: DRIVER The UserD(“uD@gmail.com”, “uD”, “uD”, “D”) IS NOT on the DB. 
+	// OK: persist con parametros “uD@gmail.com”, “uD”, “uD”, “D”
+	// FAIL: no hace persist o devuelve valores nulos
+	public void test3() {
+		
+		User userNuevo = new User("uT@gmail.com", "uT", "uT", "T");
+		//configure the state through mocks 
+		Mockito.when(db.find(User.class, userNuevo.getEmail())).thenReturn(null);	
+
+		//invoke System Under Test (sut)  
+		sut.open();
+		User userDevuelto = sut.registerUser(userNuevo);
+		sut.close();
+		
+		Mockito.verify(db, Mockito.times(1)).persist(userNuevo);
+		assertEquals(userNuevo,userDevuelto);
+	}
+	
+	@Test
 	//sut.registerUser: User null. 
 	// OK: lanza excepción
 	// FAIL: ejecuta el método
 	
-	public void test3() {
+	public void test4() {
 		try {
 			//invoke System Under Test (sut)  
 			sut.open();
