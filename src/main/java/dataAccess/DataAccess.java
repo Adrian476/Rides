@@ -3,6 +3,7 @@ package dataAccess;
 import java.io.File;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -33,6 +34,13 @@ public class DataAccess  {
 	ConfigXML c=ConfigXML.getInstance();
 
 	private static final String CITY_DONOSTIA = "Donostia";
+	private static final String CITY_MADRID = "Madrid";
+	private static final String CITY_BARCELONA = "Barcelona";
+	private static final String CITY_GRANADA = "Granada";
+	private static final String CITY_VALENCIA = "Valencia";
+
+
+
 
      public DataAccess()  {
 		if (c.isDatabaseInitialized()) {
@@ -67,165 +75,71 @@ public class DataAccess  {
 	 * This method is invoked by the business logic (constructor of BLFacadeImplementation) when the option "initialize" is declared in the tag dataBaseOpenMode of resources/config.xml file
 	 */	
 	public void initializeDB(){
-		
 		db.getTransaction().begin();
-
-		try {
-
-		   Calendar today = Calendar.getInstance();
-		   
-		   int month=today.get(Calendar.MONTH);
-		   int year=today.get(Calendar.YEAR);
-		   if (month==12) { month=1; year+=1;} 
-
-		   
-		   Ride ride1 = new Ride(CITY_DONOSTIA, "Madrid");
-		   Ride ride12 = new Ride("Madrid", CITY_DONOSTIA);
-		   ride1.addStop("Alava");
-		   ride1.addStop("Logroño");
-		   ride1.addStop("Soria");
-		   ride12.addStop("Alava");
-		   ride12.addStop("Logroño");
-		   ride12.addStop("Soria");
-		   ride1.setState("ini");
-		   ride12.setState("ini");
-		   
-		   Ride ride2 = new Ride(CITY_DONOSTIA, "Barcelona");
-		   Ride ride22 = new Ride("Barcelona", CITY_DONOSTIA);
-		   ride2.addStop("Pamplona");
-		   ride2.addStop("Zaragoza");
-		   ride2.addStop("Tarragona");
-		   ride22.addStop("Pamplona");
-		   ride22.addStop("Zaragoza");
-		   ride22.addStop("Tarragona");	
-		   ride2.setState("ini");
-		   ride22.setState("ini");
-		   
-		   Ride ride3 = new Ride("Barcelona", "Madrid");
-		   Ride ride32 = new Ride("Madrid", "Barcelona");
-		   ride3.addStop("Tarragona");
-		   ride3.addStop("Teruel");
-		   ride3.addStop("Guadalajara");
-		   ride32.addStop("Tarragona");
-		   ride32.addStop("Teruel");
-		   ride32.addStop("Guadalajara");
-		   ride3.setState("ini");
-		   ride32.setState("ini");
-		   
-		   Ride ride4 = new Ride("Barcelona", "Valencia");
-		   Ride ride42 = new Ride("Valencia", "Barcelona");
-		   ride4.addStop("Tarragona");
-		   ride4.addStop("Castellón");
-		   ride42.addStop("Tarragona");
-		   ride42.addStop("Castellón");  
-		   ride4.setState("ini");
-		   ride42.setState("ini");
-
-		   Ride ride5 = new Ride("Valencia", "Madrid");
-		   Ride ride52 = new Ride("Madrid", "Valencia");
-		   ride5.addStop("Albacete");
-		   ride5.addStop("Cuenca");
-		   ride52.addStop("Albacete");
-		   ride52.addStop("Cuenca");
-		   ride5.setState("ini");
-		   ride52.setState("ini");
-		   
-		   Ride ride6 = new Ride("Granada", "Madrid");
-		   Ride ride62 = new Ride("Madrid", "Granada");
-		   ride6.addStop("Jaén");
-		   ride6.addStop("Toledo");
-		   ride62.addStop("Jaén");
-		   ride62.addStop("Toledo");
-		   ride6.setState("ini");
-		   ride62.setState("ini");
-
-		   Ride ride7 = new Ride("Granada", CITY_DONOSTIA);
-		   Ride ride72 = new Ride(CITY_DONOSTIA, "Granada");
-		   ride7.addStop("Jaén");
-		   ride7.addStop("Toledo");
-		   ride7.addStop("Madrid");
-		   ride7.addStop("Soria");
-		   ride72.addStop("Jaén");
-		   ride72.addStop("Toledo");
-		   ride72.addStop("Madrid");
-		   ride72.addStop("Soria");
-		   ride7.setState("ini");
-		   ride72.setState("ini");
-		   
-		   db.persist(ride1);
-		   db.persist(ride12);
-		   db.persist(ride2);
-		   db.persist(ride22);
-		   db.persist(ride3);
-		   db.persist(ride32);
-		   db.persist(ride4);
-		   db.persist(ride42);
-		   db.persist(ride5);
-		   db.persist(ride52);
-		   db.persist(ride6);
-		   db.persist(ride62);
-		   db.persist(ride7);
-		   db.persist(ride72);
-		   
-		   
-		   User userT = new User("emailT", "emailT","emailT", "T");
-		   userT.getTraveler().setEmail("emailT");
-		   
-		   User userD = new User("emailD", "emailD","emailD", "D");
-		   userD.getDriver().setEmail("emailD");
-		   
-		   List<String> rides = new ArrayList<String>();
-		   rides.add("Pamplona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 2, (float) 22.19, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   rides.add("Pamplona");
-		   rides.add("Zaragoza");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 3, (float) 35.13, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   rides.add("Pamplona");
-		   rides.add("Tarragona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 1, (float) 17.75, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 4, (float) 48.22, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   rides.add("Pamplona");
-		   rides.add("Zaragona");
-		   rides.add("Tarragona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 2, (float) 28.19, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 2, (float) 20.19, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 1, (float) 11.75, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   rides.add("Tarragona");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 1, (float) 13.95, userD.getDriver()));
-		   
-		   rides = new ArrayList<String>();
-		   rides.add("Zaragoza");
-		   userD.getDriver().addCreatedRide(new Ride("Barcelona", CITY_DONOSTIA, rides, newDate(2024, 4, 19), 5, (float) 60.42, userD.getDriver()));
-		   
-
-		   db.persist(userT);
-		   db.persist(userD);
-		   
-		   db.getTransaction().commit();
-		   System.out.println("Db initialized");
-			
-		}
-		catch (Exception e){
-			e.printStackTrace();
-		}
+	    try {
+	        createBaseRides();
+	        createUsersAndCustomRides();
+	        db.getTransaction().commit();
+	        System.out.println("Db initialized");
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
 	}
 	
-	
+	public void createBaseRides() {
+		String[][] routes = {
+		        {CITY_DONOSTIA, CITY_MADRID, "Alava", "Logroño", "Soria"},
+		        {CITY_DONOSTIA, CITY_BARCELONA, "Pamplona", "Zaragoza", "Tarragona"},
+		        {CITY_BARCELONA, CITY_MADRID, "Tarragona", "Teruel", "Guadalajara"},
+		        {CITY_BARCELONA, CITY_VALENCIA, "Tarragona", "Castellón"},
+		        {CITY_VALENCIA, CITY_MADRID, "Albacete", "Cuenca"},
+		        {CITY_GRANADA, CITY_MADRID, "Jaén", "Toledo"},
+		        {CITY_GRANADA, CITY_DONOSTIA, "Jaén", "Toledo", CITY_MADRID, "Soria"}
+		};
+
+		    for (String[] r : routes) {
+		        persistRoundTrip(r[0], r[1], Arrays.copyOfRange(r, 2, r.length));
+		    }
+	}
 		   
+	private void persistRoundTrip(String from, String to, String... stops) {
+	    Ride a = new Ride(from, to);
+	    Ride b = new Ride(to, from);
+	    for (String s : stops) { a.addStop(s); b.addStop(s); }
+	    a.setState("ini"); b.setState("ini");
+	    db.persist(a); db.persist(b);
+	}
+	
+	private void createUsersAndCustomRides() {
+		User userT = createUser("emailT", "T");
+	    User userD = createUser("emailD", "D");
+
+	    float[] prices = {22.19f, 35.13f, 17.75f, 48.22f, 28.19f, 20.19f, 11.75f, 13.95f, 60.42f};
+	    int[] seats = {2, 3, 1, 4, 2, 2, 1, 1, 5};
+	    String[][] stops = {
+	        {"Pamplona"}, {"Pamplona", "Zaragoza"}, {"Pamplona", "Tarragona"}, {},
+	        {"Pamplona", "Zaragona", "Tarragona"}, {}, {}, {"Tarragona"}, {"Zaragoza"}
+	    };
+
+	    for (int i = 0; i < prices.length; i++)
+	        addRide(userD, stops[i], seats[i], prices[i]);
+
+	    db.persist(userT);
+	    db.persist(userD);
+	}
+	
+	private User createUser(String email, String role) {
+	    User u = new User(email, email, email, role);
+	    if (role.equals("T")) u.getTraveler().setEmail(email);
+	    else u.getDriver().setEmail(email);
+	    return u;
+	}
+
+	private void addRide(User userD, String[] stops, int seats, float price) {
+	    userD.getDriver().addCreatedRide(
+	        new Ride("Barcelona", CITY_DONOSTIA, Arrays.asList(stops), newDate(2024, 4, 19), seats, price, userD.getDriver())
+	    );
+	}
 	/**
 	 * This method returns all the cities where rides depart 
 	 * @return collection of cities
