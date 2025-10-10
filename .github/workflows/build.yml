@@ -35,7 +35,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent \
           org.jacoco:jacoco-maven-plugin:report install sonar:sonar \
-          -Dsonar.projectKey=adrian476_rides \
-          -Dsonar.organization=adrian476 \
-          -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+          
