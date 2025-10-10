@@ -346,21 +346,34 @@ public class DataAccess  {
 	
 	
 	public User registerUser(User user) {
-		User u = db.find(User.class, user.getEmail());
-		if(u == null) {
-			db.getTransaction().begin();
-			if(user.getTraveler() != null) {
-				user.getTraveler().setUserInfo(user);
-				user.getTraveler().setEmail(user.getEmail());
-			}
-			else if (user.getDriver() != null) {
-				user.getDriver().setUserInfo(user);
-				user.getDriver().setEmail(user.getEmail());
-			}
-			db.persist(user);
-			db.getTransaction().commit();
+		User uExists = db.find(User.class, user.getEmail());
+		if(uExists == null) return uExists;
+		db.getTransaction().begin();
+		prepareRoles(user);
+		db.persist(user);
+		db.getTransaction().commit();
+		
+		return user;
+		
+	}
+
+	private void prepareRoles(User user) {
+		if(user.getTraveler() != null) {
+			setUpTraveler(user);
 		}
-		return u;
+		else if (user.getDriver() != null) {
+			setUpDriver(user);
+		}
+	}
+
+	private void setUpTraveler(User user) {
+		user.getTraveler().setUserInfo(user);
+		user.getTraveler().setEmail(user.getEmail());
+	}
+
+	private void setUpDriver(User user) {
+		user.getDriver().setUserInfo(user);
+		user.getDriver().setEmail(user.getEmail());
 	}
 	
 	public User loginUser(String email, String passw) {
