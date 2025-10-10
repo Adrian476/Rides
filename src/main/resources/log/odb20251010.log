@@ -1,0 +1,106 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-10 11:03:54 #1 store] 
+Database 'C:\Users\ehu\Desktop\work\Rides\src\main\resources\rides.temp' is opened by 15556@U025232
+
+[2025-10-10 11:03:54 #2 type.registry] 
+New type domain.Ride
+
+[2025-10-10 11:03:54 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-10 11:03:54 #4 type.registry] 
+New type domain.Traveler
+
+[2025-10-10 11:03:54 #5 type.registry] 
+New type domain.Driver
+
+[2025-10-10 11:03:54 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-10-10 11:03:54 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-10-10 11:03:54 #8 type.registry] 
+New type domain.User
+
+[2025-10-10 11:03:54 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-10 11:03:54 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-10-10 11:03:54 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-10-10 11:03:54 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-10-10 11:03:54 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-10-10 11:03:54 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-10-10 11:03:54 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-10-10 11:03:54 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-10-10 11:03:54 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-10 11:04:21 #1 store] 
+Database 'C:\Users\ehu\Desktop\work\Rides\src\main\resources\rides.temp' is opened by 7240@U025232
+
+[2025-10-10 11:04:21 #2 type.registry] 
+New type domain.Ride
+
+[2025-10-10 11:04:21 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-10 11:04:21 #4 type.registry] 
+New type domain.Traveler
+
+[2025-10-10 11:04:21 #5 type.registry] 
+New type domain.Driver
+
+[2025-10-10 11:04:21 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-10-10 11:04:21 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-10-10 11:04:21 #8 type.registry] 
+New type domain.User
+
+[2025-10-10 11:04:21 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-10 11:04:21 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-10-10 11:04:21 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-10-10 11:04:21 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-10-10 11:04:21 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-10-10 11:04:21 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-10-10 11:04:21 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-10-10 11:04:21 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-10-10 11:04:21 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+

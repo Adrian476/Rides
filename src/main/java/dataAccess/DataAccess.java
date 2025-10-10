@@ -317,10 +317,10 @@ public class DataAccess  {
 		return t;
 	}
 	
-	public Ride getRideStopsByCod(String from, String to, Date date, String state, Integer cd) {
-		Ride ride = this.db.find(Ride.class, cd);
+	public Ride getRideStopsByCod(String state, Ride r) {
+		Ride ride = this.db.find(Ride.class, r.getRideNumber());
 	    if(ride != null) {
-	    	List<Ride> rides = this.getRides(from, to, date, state);
+	    	List<Ride> rides = this.getRides(r.getFrom(), r.getTo(), r.getDate(), state);
 	    	if(!rides.contains(ride))
 	    		return null;
 	    }

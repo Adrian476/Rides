@@ -58,7 +58,7 @@ public class GetRideStopsBDBlackTest {
 			testDA.addRide(ride);
 
 			sut.open();
-			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			Ride result = sut.getRideStopsByCod(state, ride);
 			sut.close();
 
 			assertNull(result);
@@ -87,7 +87,7 @@ public class GetRideStopsBDBlackTest {
 			testDA.addRide(ride);
 
 			sut.open();
-			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			Ride result = sut.getRideStopsByCod(state, ride);
 			sut.close();
 
 			assertNull(result);
@@ -116,7 +116,7 @@ public class GetRideStopsBDBlackTest {
 			testDA.addRide(ride);
 
 			sut.open();
-			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			Ride result = sut.getRideStopsByCod(state, ride);
 			sut.close();
 
 			assertNull(result);
@@ -145,7 +145,7 @@ public class GetRideStopsBDBlackTest {
 			testDA.addRide(ride);
 
 			sut.open();
-			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			Ride result = sut.getRideStopsByCod(state, ride);
 			sut.close();
 
 			assertNull(result);
@@ -171,7 +171,7 @@ public class GetRideStopsBDBlackTest {
 		Integer cd = 50;
 
 		sut.open();
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, null);
 		sut.close();
 
 		assertNull(result);
@@ -195,7 +195,7 @@ public class GetRideStopsBDBlackTest {
 
 
 			sut.open();
-			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			Ride result = sut.getRideStopsByCod(state, ride);
 			sut.close();
 
 			assertNotNull(result);
@@ -237,7 +237,7 @@ public class GetRideStopsBDBlackTest {
 
 
 			sut.open();
-			Ride result = sut.getRideStopsByCod(from, to, date, state, ride.getRideNumber());
+			Ride result = sut.getRideStopsByCod(state, ride);
 			sut.close();
 
 			assertNotNull(result);

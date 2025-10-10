@@ -178,7 +178,7 @@ public class BLFacadeImplementation  implements BLFacade {
 	
 	public String getRideStopsByCod(String from, String to, Date date, String state, Integer cd) {
 		dbManager.open();
-		Ride ride = dbManager.getRideStopsByCod(from, to, date, state, cd);
+		Ride ride = dbManager.getRideStopsByCod(state, null);
 		dbManager.close();
 
 		if(ride == null)

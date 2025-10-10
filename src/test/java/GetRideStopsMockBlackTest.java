@@ -99,7 +99,7 @@ public class GetRideStopsMockBlackTest {
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
 
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, ride);
 
 		assertNull(result);
 	}
@@ -127,7 +127,7 @@ public class GetRideStopsMockBlackTest {
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
 
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, ride);
 
 		assertNull(result);
 	}
@@ -153,7 +153,7 @@ public class GetRideStopsMockBlackTest {
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
 
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, ride);
 
 		assertNull(result);
 	}
@@ -180,7 +180,7 @@ public class GetRideStopsMockBlackTest {
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.emptyList());
 
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, ride);
 
 		assertNull(result);
 	}
@@ -198,7 +198,7 @@ public class GetRideStopsMockBlackTest {
 		Integer cd = 50;
 
 		Mockito.when(db.find(eq(Ride.class), eq(cd))).thenReturn(null); 
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, null);
 
 		assertNull(result);
 
@@ -225,7 +225,7 @@ public class GetRideStopsMockBlackTest {
 		Mockito.when(mockTypedQuery.setParameter(anyInt(), any())).thenReturn(mockTypedQuery);
 		Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
 
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, ride);
 
 		assertNotNull(result);
 		assertEquals(ride, result);
@@ -261,7 +261,7 @@ public class GetRideStopsMockBlackTest {
         
         Mockito.when(mockTypedQuery.getResultList()).thenReturn(Collections.singletonList(ride));
         
-		Ride result = sut.getRideStopsByCod(from, to, date, state, cd);
+		Ride result = sut.getRideStopsByCod(state, ride);
 
 		assertNotNull(result);
 		assertEquals(ride, result);
