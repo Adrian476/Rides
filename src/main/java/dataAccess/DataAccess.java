@@ -196,23 +196,32 @@ public class DataAccess  {
 		Traveler trvlr = db.find(Traveler.class, emailTraveler);
 
 		db.getTransaction().begin();
-		ride.setState("reservado");
-		ride.setTravelerInfo(trvlr);
-		
-		DecimalFormat df = new DecimalFormat("0.00");
-		if(trvlr.hasDiscountRide(ride.getFrom(), ride.getTo())) {
-			ride.setDiscount();
-			trvlr.subCash(Float.parseFloat(df.format((float) (ride.getPrice() - ride.getPrice() * 0.1))));
-		}
-		else
-			trvlr.subCash(Float.parseFloat(df.format(ride.getPrice())));
-		
-		trvlr.bookRide(ride);
-		drvr.bookRide(ride);
+		processRideBooking(ride, drvr, trvlr);
 		db.getTransaction().commit();
 	
 		System.out.println("Viaje reservado: \n"+ride);
 		return ride;
+	}
+
+	private void processRideBooking(Ride ride, Driver drvr, Traveler trvlr) {
+		ride.setState("reservado");
+		ride.setTravelerInfo(trvlr);
+		
+		applyPayment(ride, trvlr);
+		
+		trvlr.bookRide(ride);
+		drvr.bookRide(ride);
+	}
+
+	private void applyPayment(Ride ride, Traveler trvlr) {
+		DecimalFormat df = new DecimalFormat("0.00");
+		float price = ride.getPrice();
+		
+		if(trvlr.hasDiscountRide(ride.getFrom(), ride.getTo())) {
+			ride.setDiscount();
+			price = (float) (price - price * 0.1);
+		}
+		trvlr.subCash(Float.parseFloat(df.format(price)));
 	}
 	
 	public Ride acceptRide(Integer cd) {
