@@ -81,34 +81,27 @@ public class Driver implements Serializable {
 		return acceptedRides;
 	}
 	
-	public List<Ride> getCreatedRidesFromDate(String from, String to, Date date){
-		List<Ride> res = new ArrayList<Ride>();
-			for(Ride r: createdRides) {
-				if(r.getDate().getTime() == date.getTime() && r.getFrom().equals(from) && r.getTo().equals(to))
-					res.add(r);
+	private List<Ride> getRidesFromDate(List<Ride> rides, String from, String to, Date date) {
+		List<Ride> res = new ArrayList<>();
+		for (Ride r : rides) {
+			if (r.getDate().getTime() == date.getTime() && r.getFrom().equals(from) && r.getTo().equals(to)) {
+				res.add(r);
+			}
 		}
 		System.out.println(res);
 		return res;
+	}
+	
+	public List<Ride> getCreatedRidesFromDate(String from, String to, Date date){
+		return getRidesFromDate(createdRides, from, to, date);
 	}
 	
 	public List<Ride> getBookedRidesFromDate(String from, String to, Date date){
-		List<Ride> res = new ArrayList<Ride>();
-			for(Ride r: bookedRides) {
-				if(r.getDate().getTime() == date.getTime() && r.getFrom().equals(from) && r.getTo().equals(to))
-					res.add(r);
-		}
-		System.out.println(res);
-		return res;
+		return getRidesFromDate(bookedRides, from, to, date);
 	}
 	
 	public List<Ride> getAcceptedRidesFromDate(String from, String to, Date date){
-		List<Ride> res = new ArrayList<Ride>();
-			for(Ride r: acceptedRides) {
-				if(r.getDate().getTime() == date.getTime() && r.getFrom().equals(from) && r.getTo().equals(to))
-					res.add(r);
-		}
-		System.out.println(res);	
-		return res;
+		return getRidesFromDate(acceptedRides, from, to, date);
 	}
 	
 	public String getStopsFromDate(String from, String to, Integer code, Date date, String state) {
