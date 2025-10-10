@@ -400,6 +400,8 @@ public void open(){
 		
 	}
 
+	public void nada(){}
+
 	public void close(){
 		db.close();
 		System.out.println("DataAcess closed");
