@@ -15,12 +15,12 @@ import javax.swing.JTextField;
 public class MonederoGUI extends JFrame {
 	private static final long serialVersionUID = 1L;
 	
-	
+	private String saldo = "Saldo actual: ";
 	private JButton btnExit = new JButton("Volver");
 	private JTextField textDinero = new JTextField();
 
 
-	private JLabel lblSaldoActual = new JLabel("Saldo actual: ");
+	private JLabel lblSaldoActual = new JLabel(saldo);
 	private JButton btnAddCash = new JButton("Añadir al monedero");
 	private final JLabel lbltext = new JLabel("Saldo a añadir: ");
 	private final JLabel lblError = new JLabel("");
@@ -32,7 +32,7 @@ public class MonederoGUI extends JFrame {
 		getContentPane().setLayout(null);
 		
 		DecimalFormat df = new DecimalFormat("0.00");
-		lblSaldoActual.setText("Saldo actual: "+String.valueOf(df.format(traveler.getCash())+"€"));
+		lblSaldoActual.setText(saldo+String.valueOf(df.format(traveler.getCash())+"€"));
 		
 		btnExit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -62,7 +62,7 @@ public class MonederoGUI extends JFrame {
 					if(dinero>=0 && dinero<=1000) {
 						traveler.addCash((float)dinero);
 						DecimalFormat df = new DecimalFormat("0.00");
-						lblSaldoActual.setText("Saldo actual: "+String.valueOf(df.format(traveler.getCash())+"€"));
+						lblSaldoActual.setText(saldo+String.valueOf(df.format(traveler.getCash())+"€"));
 						textDinero.setText(null);
 						lblError.setText(null);
 					}
