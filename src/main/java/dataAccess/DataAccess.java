@@ -26,6 +26,7 @@ import exceptions.RideMustBeLaterThanTodayException;
 
 
 //comentario para probar el build
+//funciona?
 /**
  * It implements the data access to the objectDb database
  */
