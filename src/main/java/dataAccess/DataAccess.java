@@ -400,7 +400,6 @@ public void open(){
 		
 	}
 
-	public void nada(){}
 
 	public void close(){
 		db.close();
