@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Rides24</groupId>
-  <artifactId>RidesAdrian</artifactId>
+  <artifactId>Rides</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
 
@@ -49,10 +49,10 @@
 <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
-    <sonar.organization>shirley-11</sonar.organization>
+    <sonar.organization>adrian476</sonar.organization>
 	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	<sonar.projectKey>shirley-11_adrianrides</sonar.projectKey>
-	<sonar.login>97fc81a40f0656fb474564450dbd0a66f5aa77ed</sonar.login>
+	<sonar.projectKey>adrian476_rides</sonar.projectKey>
+	<sonar.login>14e92b57124c3d6ccb07a4e29df1c3e66126f944</sonar.login>
     
     
 </properties>
