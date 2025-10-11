@@ -468,7 +468,7 @@ public class ManageRidesGUI extends JFrame {
 						state = "a";
 					
 					driver = facade.getDriver(driver.getEmail());
-					txtAreaVisualizeStops.setText(driver.getStopsFromDate(origin, destination, code, date, state));
+					txtAreaVisualizeStops.setText(driver.getStopsFromDate(origin, destination,date , code));
 				}
 				catch (NumberFormatException e1) {
 					lblMessageRideCreated.setText("El codigo tiene que ser un numero entero");

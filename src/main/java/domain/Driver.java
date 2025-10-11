@@ -104,25 +104,31 @@ public class Driver implements Serializable {
 		return getRidesFromDate(acceptedRides, from, to, date);
 	}
 	
-	public String getStopsFromDate(String from, String to, Integer code, Date date, String state) {
-		List<Ride> ridesDate = new ArrayList<Ride>();
-		
-		if(state.equals("p"))
-			ridesDate = this.getCreatedRidesFromDate(from, to, date);
-		else if(state.equals("b"))
-			ridesDate = this.getBookedRidesFromDate(from, to, date);
-		else if(state.equals("a"))
-			ridesDate = this.getAcceptedRidesFromDate(from, to, date);
-		
-		boolean isCode = false;
-		for(Ride r: ridesDate) {
-			if(r.getRideNumber().compareTo(code) == 0) {
-				isCode = true;
-				if(r.getStops().size() > 0)
-					return r.stopsToString();
-			}
-		}
-		if(isCode == false) return "No se encuentra el viaje";
-		else return "Sin paradas";
+	public String getStopsFromDate(String from, String to, Date date, Integer code) {
+	    List<Ride> ridesDate = new ArrayList<>();
+	    
+	    // Combinar las listas de rides de diferentes estados
+	    ridesDate.addAll(getCreatedRidesFromDate(from, to, date));
+	    ridesDate.addAll(getBookedRidesFromDate(from, to, date));
+	    ridesDate.addAll(getAcceptedRidesFromDate(from, to, date));
+	    
+	    // Buscar el ride por código
+	    Ride ride = findRideByCode(ridesDate, code);
+	    if (ride == null) {
+	        return "No se encuentra el viaje";
+	    }
+	    return ride.getStops().isEmpty() ? "Sin paradas" : ride.stopsToString();
 	}
+
+	// Método auxiliar para buscar un ride por su código
+	private Ride findRideByCode(List<Ride> rides, Integer code) {
+	    for (Ride r : rides) {
+	        if (r.getRideNumber().compareTo(code) == 0) {
+	            return r;
+	        }
+	    }
+	    return null;
+	}
+
+	
 }
