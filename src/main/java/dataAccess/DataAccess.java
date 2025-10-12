@@ -267,7 +267,6 @@ public class DataAccess  {
 	
 	public List<Date> getThisMonthDatesWithRides(String from, String to, Date date) {
 		System.out.println(">> DataAccess: getEventsMonth");
-		List<Date> res = new ArrayList<>();	
 		
 		Date firstDayMonthDate= UtilDate.firstDayMonth(date);
 		Date lastDayMonthDate= UtilDate.lastDayMonth(date);
@@ -280,11 +279,7 @@ public class DataAccess  {
 		query.setParameter(4, lastDayMonthDate);
 		query.setParameter(5, "s");
 		
-		List<Date> dates = query.getResultList();
-		for (Date d:dates)
-			res.add(d);
-		
-	 	return res;
+	 	return query.getResultList();
 	}
 	
 	public List<Ride> getRides(String from, String to, Date date, String state) {
@@ -330,13 +325,12 @@ public class DataAccess  {
 	}
 	
 	public Ride getRideStopsByCod(String state, Ride r) {
-		Ride ride = this.db.find(Ride.class, r.getRideNumber());
-	    if(ride != null) {
+	    if(r != null) {
 	    	List<Ride> rides = this.getRides(r.getFrom(), r.getTo(), r.getDate(), state);
-	    	if(!rides.contains(ride))
+	    	if(!rides.contains(r))
 	    		return null;
 	    }
-		return ride;
+		return r;
 	}
 	
 	public Ride getRide(Integer cd) {
@@ -378,20 +372,30 @@ public class DataAccess  {
 	
 	public User loginUser(String email, String passw) {
 		User user = db.find(User.class, email);
-		//Contraseña incorrecta
-		if (user != null && !user.getPassword().equals(passw)){
-				user.setPassword(null);
+		if (user == null || isPasswordValid(user, passw)){
+				return null;
 		}
-		else if(user != null && user.getPassword().equals(passw)) {
-			if(user.getDriver() != null) {
-				System.out.println(user.getDriver().getCreatedRides());
-				System.out.println(user.getDriver().getBookedRides());
-				System.out.println(user.getDriver().getAcceptedRides());
-			}
-			else if(user.getTraveler() != null)
-				System.out.println(user.getTraveler().getAcceptedRides());
-		}	
+		clearPassword(user);
+		loadUserRides(user);
 		return user;
+	}
+	
+	private boolean isPasswordValid(User user, String password) {
+	    return user.getPassword() != null && user.getPassword().equals(password);
+	}
+
+	private void clearPassword(User user) {
+	    user.setPassword(null);
+	}
+
+	private void loadUserRides(User user) {
+	    if (user.getDriver() != null) {
+	        System.out.println(user.getDriver().getCreatedRides());
+	        System.out.println(user.getDriver().getBookedRides());
+	        System.out.println(user.getDriver().getAcceptedRides());
+	    } else if (user.getTraveler() != null) {
+	    	System.out.println(user.getTraveler().getAcceptedRides());
+	    }
 	}
 	
 	private Date newDate(int year,int month,int day) {

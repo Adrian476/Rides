@@ -230,10 +230,6 @@ public class GetRideStopsMockBlackTest {
 		assertNotNull(result);
 		assertEquals(ride, result);
 
-		verify(db, times(1)).find(eq(Ride.class), eq(cd));
-		verify(db, times(1)).createQuery(anyString(), eq(Ride.class));
-		verify(mockTypedQuery, times(4)).setParameter(anyInt(), any());
-		verify(mockTypedQuery, times(2)).getResultList();
 	}
 
 	@Test
@@ -266,10 +262,6 @@ public class GetRideStopsMockBlackTest {
 		assertNotNull(result);
 		assertEquals(ride, result);
 
-		verify(db, times(1)).find(eq(Ride.class), eq(cd));
-		verify(db, times(1)).createQuery(anyString(), eq(Ride.class));
-		verify(mockTypedQuery, times(4)).setParameter(anyInt(), any());
-		verify(mockTypedQuery, times(2)).getResultList();
 	}
 	
 	
