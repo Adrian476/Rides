@@ -1,4 +1,4 @@
-package logInUser;
+package loginUser;
 import dataAccess.DataAccess;
 import domain.User;
 import testOperations.TestDataAccess;
