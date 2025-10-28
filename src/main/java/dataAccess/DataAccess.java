@@ -70,6 +70,8 @@ public class DataAccess  {
     public DataAccess(EntityManager db) {
     	this.db=db;
     }
+    
+    public void nada () {}
 
 	
 	
