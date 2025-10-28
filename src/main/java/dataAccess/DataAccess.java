@@ -341,7 +341,7 @@ public class DataAccess  {
 	
 	public User registerUser(User user) {
 		User uExists = db.find(User.class, user.getEmail());
-		if(uExists == null) return uExists;
+		if(uExists != null) return uExists;
 		db.getTransaction().begin();
 		prepareRoles(user);
 		db.persist(user);
@@ -371,17 +371,27 @@ public class DataAccess  {
 	}
 	
 	public User loginUser(String email, String passw) {
-		User user = db.find(User.class, email);
-		if (user == null || isPasswordValid(user, passw)){
-				return null;
-		}
-		clearPassword(user);
-		loadUserRides(user);
-		return user;
+	    User user = db.find(User.class, email);
+	    if (user != null && !user.getPassword().equals(passw)){
+	    	System.out.println("Incorrect password!");
+	        user.setPassword(null);
+	    }
+	    else if(user != null && user.getPassword().equals(passw)){
+	    	System.out.println("Correct password!");
+	    	user.toString();
+	      if(user.getDriver() != null){
+	         System.out.println(user.getDriver().getCreatedRides());
+	        System.out.println(user.getDriver().getBookedRides());
+	         System.out.println(user.getDriver().getAcceptedRides());
+	      }else if(user.getTraveler() != null)
+	         System.out.println(user.getTraveler().getAcceptedRides());
+	    }  
+	     return user;
 	}
+
 	
 	private boolean isPasswordValid(User user, String password) {
-	    return user.getPassword() != null && user.getPassword().equals(password);
+	    return user.getPassword() != null && ((user.getPassword()).compareTo(password)==0);
 	}
 
 	private void clearPassword(User user) {
