@@ -59,7 +59,7 @@ public class DataAccess  {
 				  System.out.println("Operation failed");
 				}
 		}
-		open();
+		open(); 
 		if  (c.isDatabaseInitialized())initializeDB();
 		
 		System.out.println("DataAccess created => isDatabaseLocal: "+c.isDatabaseLocal()+" isDatabaseInitialized: "+c.isDatabaseInitialized());
