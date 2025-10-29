@@ -52,7 +52,7 @@
     <sonar.organization>adrian476</sonar.organization>
 	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	<sonar.projectKey>adrian476_rides24</sonar.projectKey>
-	<sonar.login>e452f111a630c6e64e6ab3b6e964b0b11587c4c8</sonar.login>
+	<sonar.login>89ae03ef17daa1557017f3afdd154ea8501226fc</sonar.login>
     
     
 </properties>
