@@ -443,5 +443,7 @@ public void open(){
 		db.close();
 		System.out.println("DataAcess closed");
 	}
+	
+	//BUILD TEST
 
 }
