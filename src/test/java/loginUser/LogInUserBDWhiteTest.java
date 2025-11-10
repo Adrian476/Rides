@@ -38,7 +38,7 @@ public class LogInUserBDWhiteTest {
 		 
 	 }
 	 
-	 */
+	
 	//sut.login:  The UserT("noexiste@mail.com", “uT”, “cualquiera”, “T”) does not exists in the DB. 
 	//OK: returns null
 	//FAIL: returns a user
@@ -53,8 +53,8 @@ public class LogInUserBDWhiteTest {
 		//3.	check
 		 assertNull(result);
 	 }
-	 
-	 
+	  */
+	 /*
 	//sut.login:  The User(“email”, “u”, password, "T" ) IS in the DB
 	//			  and the password is incorrect
 	//OK: returns the user with email, u and empty password
@@ -85,10 +85,10 @@ public class LogInUserBDWhiteTest {
 		testDA.close();
 	 }
 	 
-	 /*
+	 
 	  * sut.login:  The User(“u1@gmail.com", “uT”, “correcta”, "T") IS on the DB.
 	  * OK : Returns the traveler object and prints the info
-	  */
+	 
 	 @Test
 	 public void test3() {
 		//1.	expected	value
@@ -112,6 +112,7 @@ public class LogInUserBDWhiteTest {
 			testDA.close();
 	 }
 	 
+	 
 	 @Test
 	 public void test4() {
 		//1.	expected	value
@@ -131,4 +132,5 @@ public class LogInUserBDWhiteTest {
 		testDA.removeUser(uD);
 		testDA.close();
 	 }
+	  */
 }

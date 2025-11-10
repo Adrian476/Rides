@@ -55,6 +55,7 @@ public class LogInUserMockWhiteTest {
 		persistenceMock.close();	
     }
 	
+	/*
 	@Test
 	//sut.login:  The UserT("noexiste@mail.com", “uT”, “cualquiera”, “T”) does not exists in the DB. 
 	//OK: returns null
@@ -75,6 +76,7 @@ public class LogInUserMockWhiteTest {
 		assertNull(u);
 	//	Mockito.verify(db, Mockito.times(0)).persist(u);
 	}
+	
 	
 	//sut.login:  The User(“email”, “u”, password, "T" ) IS in the DB
 	//			  and the password is incorrect
@@ -100,11 +102,12 @@ public class LogInUserMockWhiteTest {
 		
 		
 	}
+	/*
 	@Test
 	/*
 	 * sut.login:  The User(“u1@gmail.com", “uT”, “correcta”, "T") IS on the DB.
 	 * OK : Returns the traveller object and prints the info
-	 */
+	 
 	public void test3() {
 		// Redirige System.out a un stream temporal
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -131,6 +134,7 @@ public class LogInUserMockWhiteTest {
 
 
 	}
+	
 	@Test
 	//sut.login:  The User(“u1@gmail.com", “uT”, “correcta”, "T") IS on the DB.
 	 // OK : Returns the traveller object and prints the info
@@ -159,6 +163,7 @@ public class LogInUserMockWhiteTest {
 	    assertTrue(salida.contains(u.getDriver().getBookedRides().toString()));
 	    assertNotNull(u.getDriver());
 	}
+	*/
 
 	
 

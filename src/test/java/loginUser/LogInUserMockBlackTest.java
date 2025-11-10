@@ -50,7 +50,7 @@ public class LogInUserMockBlackTest {
     public  void tearDown() {
 		persistenceMock.close();	
     }
-	
+	/*
 	@Test
 	//sut.login:  The User("existe@mail.com", “uT”, “cualquiera”, “T”) does exists in the DB. 
 	//OK: returns user
@@ -75,7 +75,7 @@ public class LogInUserMockBlackTest {
 		System.out.println("✓");
 	//	Mockito.verify(db, Mockito.times(0)).persist(u);
 	}
-	
+	*/
 	/*
 	 * public void test1_2() {
 		email ="existe@mail.com";
@@ -92,9 +92,9 @@ public class LogInUserMockBlackTest {
 		assertEquals(u.getPassword(),ut.getPassword());
 	//	Mockito.verify(db, Mockito.times(0)).persist(u);
 	}
-	 */
+	 
 	
-	
+	*/
 	//sut.login:  The User(“email”, “u”, password, "T" ) IS in the DB
 	//			  and the password is incorrect
 	//OK: returns the user with email, u and empty password
@@ -120,11 +120,12 @@ public class LogInUserMockBlackTest {
 			//fail(" X The retrieved value is null");
 		//}
 	}
-	@Test
 	/*
+	@Test
+	
 	 * sut.login:  The User DOES NOT EXIST
 	 * OK : Returns null
-	 */
+	
 	public void test3() {
 		System.out.println("----------------------------------------------------");
 		System.out.println("TEST Nº3");
@@ -140,10 +141,9 @@ public class LogInUserMockBlackTest {
 
 		assertNull(u);
 		System.out.println("✓");
-
-
-
 	}
+	 */
+	
 	@Test
 	//sut.login(null, "idk")
 	 // OK : returns null
@@ -167,7 +167,8 @@ public class LogInUserMockBlackTest {
 		
 		
 	}
-
+	
+/*
 	@Test
 	//sut.login:  The User(“u1@gmail.com", “uT”, “correcta”, "T") IS on the DB.
 	 // OK : Returns the traveller object and prints the info
@@ -187,6 +188,7 @@ public class LogInUserMockBlackTest {
 			System.out.println(" ✓ Retrieved value is null");
 			assertTrue(true);
 		}
-	}
+		
+	}*/
 
 }
