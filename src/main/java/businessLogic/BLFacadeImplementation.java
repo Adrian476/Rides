@@ -15,6 +15,7 @@ import domain.User;
 import domain.Driver;
 //import domain.PaymentInfo;
 import exceptions.RideMustBeLaterThanTodayException;
+import iterator.ExtendedIterator;
 import exceptions.RideAlreadyExistException;
 import java.util.logging.Logger;
 
@@ -60,6 +61,19 @@ public class BLFacadeImplementation  implements BLFacade {
 		return departLocations;
     	
     }
+    
+    @WebMethod
+	public ExtendedIterator<String> getDepartingCitiesIterator() {
+    	dbManager.open();	
+    	ExtendedIterator<String> cities =dbManager.getDepartingCitiesIterator();	
+		dbManager.close();		
+		return cities;
+	}
+    
+    
+    
+    
+    
     /**
      * {@inheritDoc}
      */
@@ -229,5 +243,7 @@ public class BLFacadeImplementation  implements BLFacade {
     	dbManager.close();
     	return userAux;
     }
+
+	
 
 }

@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.jws.WebMethod;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -23,6 +24,8 @@ import domain.Traveler;
 import domain.User;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
+import iterator.ExtendedIterator;
+import iterator.ExtendedIteratorCities;
 
 
 //comentario para probar el build
@@ -154,6 +157,14 @@ public class DataAccess  {
 		List<String> cities = query.getResultList();
 		return cities;
 	}
+	
+	public ExtendedIterator<String> getDepartingCitiesIterator() {
+    	List<String> cities = getDepartCities();		
+		return new ExtendedIteratorCities(cities);	
+	}
+	
+	
+	
 	/**
 	 * This method returns all the arrival destinations, from all rides that depart from a given city  
 	 * 
