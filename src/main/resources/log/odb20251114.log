@@ -1,0 +1,53 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-11-14 17:44:49 #1 store] 
+Database 'C:\Users\Propietario\git\Rides\src\main\resources\rides.temp' is opened by 16596@DESKTOP-BFA65BV
+
+[2025-11-14 17:44:49 #2 type.registry] 
+New type domain.Ride
+
+[2025-11-14 17:44:49 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2025-11-14 17:44:49 #4 type.registry] 
+New type domain.Traveler
+
+[2025-11-14 17:44:49 #5 type.registry] 
+New type domain.Driver
+
+[2025-11-14 17:44:49 #6 type] 
+Type domain.Traveler is not enhanced.
+
+[2025-11-14 17:44:49 #7 type.registry] 
+New type domain.DiscountInfo
+
+[2025-11-14 17:44:49 #8 type.registry] 
+New type domain.User
+
+[2025-11-14 17:44:49 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-11-14 17:44:49 #10 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-11-14 17:44:49 #11 type] 
+Type domain.DiscountInfo is not enhanced.
+
+[2025-11-14 17:44:49 #12 type] 
+Type domain.User is not enhanced.
+
+[2025-11-14 17:44:49 #13 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-11-14 17:44:49 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-11-14 17:44:49 #15 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2025-11-14 17:44:49 #16 type.registry] 
+New type java.util.ArrayList<domain.DiscountInfo>
+
+[2025-11-14 17:44:49 #17 type.registry] 
+New type java.util.Vector<domain.Ride>
+
