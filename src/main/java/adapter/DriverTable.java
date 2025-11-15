@@ -13,7 +13,7 @@ public class DriverTable extends JFrame{
 	private Driver driver;
 	private JTable	tabla;
 	public DriverTable(Driver driver){
-		super(driver.getUserInfo().getUsername()+"’s	rides ");
+		super(driver.getEmail()+"’s	rides ");
 		this.setBounds(100,	100,	700,	200);
 		this.driver =	driver;
 		DriverAdapter	adapt	=	new DriverAdapter(driver);

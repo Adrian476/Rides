@@ -121,6 +121,7 @@ public class DataAccess  {
 	private void createUsersAndCustomRides() {
 		User userT = createUser("emailT", "T");
 	    User userD = createUser("emailD", "D");
+	    User Urtzi = createUser("Urtzi", "D");
 
 	    float[] prices = {22.19f, 35.13f, 17.75f, 48.22f, 28.19f, 20.19f, 11.75f, 13.95f, 60.42f};
 	    int[] seats = {2, 3, 1, 4, 2, 2, 1, 1, 5};
@@ -129,11 +130,14 @@ public class DataAccess  {
 	        {"Pamplona", "Zaragona", "Tarragona"}, {}, {}, {"Tarragona"}, {"Zaragoza"}
 	    };
 
-	    for (int i = 0; i < prices.length; i++)
+	    for (int i = 0; i < prices.length; i++) {
 	        addRide(userD, stops[i], seats[i], prices[i]);
+	    	addRide(Urtzi, stops[i], seats[i], prices[i]);
+	    }
 
 	    db.persist(userT);
 	    db.persist(userD);
+	    db.persist(Urtzi);
 	}
 	
 	private User createUser(String email, String role) {
@@ -145,7 +149,7 @@ public class DataAccess  {
 
 	private void addRide(User userD, String[] stops, int seats, float price) {
 	    userD.getDriver().addCreatedRide(
-	        new Ride("Barcelona", CITY_DONOSTIA, Arrays.asList(stops), newDate(2024, 4, 19), seats, price, userD.getDriver())
+	        new Ride("Barcelona", CITY_DONOSTIA, Arrays.asList(stops), newDate(2025, 11, 19), seats, price, userD.getDriver())
 	    );
 	}
 	/**

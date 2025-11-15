@@ -23,7 +23,7 @@ public class DriverAdapter extends AbstractTableModel {
 
     public DriverAdapter(Driver driver) {
         this.driver = driver;
-        this.rides = driver.getCreatedRides();   // el adaptado
+        this.rides = driver.getCreatedRides();
     }
 
     @Override
@@ -37,15 +37,15 @@ public class DriverAdapter extends AbstractTableModel {
     }
 
     @Override
-    public String getColumnName(int column) {
-        return columnNames[column];
+    public String getColumnName(int i) {
+        return columnNames[i];
     }
 
     @Override
-    public Object getValueAt(int rowIndex, int columnIndex) {
-        Ride r = rides.get(rowIndex);
+    public Object getValueAt(int i, int j) {
+        Ride r = rides.get(i);
 
-        switch (columnIndex) {
+        switch (j) {
             case 0:
                 return r.getFrom();
             case 1:
