@@ -121,7 +121,7 @@ public class DataAccess  {
 	private void createUsersAndCustomRides() {
 		User userT = createUser("emailT", "T");
 	    User userD = createUser("emailD", "D");
-	    User Urtzi = createUser("Urtzi", "D");
+	    User urtzi = createUser("Urtzi", "D");
 
 	    float[] prices = {22.19f, 35.13f, 17.75f, 48.22f, 28.19f, 20.19f, 11.75f, 13.95f, 60.42f};
 	    int[] seats = {2, 3, 1, 4, 2, 2, 1, 1, 5};
@@ -132,12 +132,12 @@ public class DataAccess  {
 
 	    for (int i = 0; i < prices.length; i++) {
 	        addRide(userD, stops[i], seats[i], prices[i]);
-	    	addRide(Urtzi, stops[i], seats[i], prices[i]);
+	    	addRide(urtzi, stops[i], seats[i], prices[i]);
 	    }
 
 	    db.persist(userT);
 	    db.persist(userD);
-	    db.persist(Urtzi);
+	    db.persist(urtzi);
 	}
 	
 	private User createUser(String email, String role) {
