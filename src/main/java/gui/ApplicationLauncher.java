@@ -8,6 +8,7 @@ import java.util.Locale;
 import javax.swing.UIManager;
 
 import configuration.ConfigXML;
+import iterator.ExtendedIterator;
 import businessLogic.BLFacade;
 import businessLogic.BLFactory; 
 
@@ -37,7 +38,26 @@ public class ApplicationLauncher {
             boolean isLocal = c.isBusinessLogicLocal();
             appFacadeInterface = new BLFactory().getBusinessLogic(isLocal);
             
-            MainGUI.setBussinessLogic(appFacadeInterface);  // Corrige typo a "BusinessLogic" si puedes
+            MainGUI.setBussinessLogic(appFacadeInterface);  
+
+            ExtendedIterator<String>	i	=	appFacadeInterface.getDepartingCitiesIterator();	
+            String	city;	
+            System.out.println("_____________________");	
+            System.out.println("FROM	LAST	TO	FIRST");	
+            i.goLast();	//	Go	to	last	element	
+            while	(i.hasPrevious())	{	
+            city	=	(String) i.previous();	
+            System.out.println(city);	
+            }	
+            System.out.println();	
+            System.out.println("_____________________");	
+            System.out.println("FROM	FIRST	TO	LAST");	
+            i.goFirst();	//	Go	to	first	element	
+            while	(i.hasNext())	{	
+            city	=	(String) i.next();	
+            System.out.println(city);	
+            }	
+            
         }catch (Exception e) {
             a.jLabelSelectOption.setText("Error: "+e.toString());
             a.jLabelSelectOption.setForeground(Color.RED);	
